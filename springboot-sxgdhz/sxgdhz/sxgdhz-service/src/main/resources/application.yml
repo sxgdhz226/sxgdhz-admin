@@ -1,0 +1,33 @@
+
+# ################## 这个yml配置文件，你可以理解成是一个通用的配置；比如dev、pro不同环境的配置，都继承此文件中的配置；##################
+# ################## 项目启动的时候，默认会加载此yml文件，根据profiles的环境配置，再加载对应的application-dev(pro).yml的配置文件；##################
+
+server:
+  port: 8081  # 设置80端口
+  tomcat:
+    uri-encoding: utf-8
+
+# 查看springboot开启了哪些配置
+debug: false
+
+# 不同开发环境的配置
+# logback-spring.xml中的配置也会根据不同环境的配置，实现不同的日志输出
+spring:
+  profiles:
+    active: dev
+
+# mybatis配置
+mybatis:
+  #mapper-locations: classpath:mybatis/mapper/**/*.xml # mapper xml所在的路径
+  #type-aliases-package: pers.zb.center.service.user.entity # 实体bean所在的包路径
+  config-location: classpath:mybatis/mybatis-config.xml # mybatis相关的配置；其中可以将相关的bean起一个别名，这样在mapper.xml中的resultType就可以不用写完整的包名了，直接使用别名就可以了
+
+mapper:
+    identity: MYSQL # 指定数据库方言，默认mysql；如果是mysql数据库的话，这里也可以不用配置
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+
+

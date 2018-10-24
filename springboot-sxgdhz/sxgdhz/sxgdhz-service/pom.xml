@@ -9,10 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sxgdhz-common</artifactId>
+    <artifactId>sxgdhz-service</artifactId>
 
-    <name>sxgdhz-common</name>
-    <!-- FIXME change it to the project's website -->
+    <name>sxgdhz-service</name>
     <url>http://www.example.com</url>
 
     <properties>
@@ -28,6 +27,24 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Dubbo -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>${dubbo.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.jboss.netty</groupId>
+                    <artifactId>netty</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
     </dependencies>
+
 
 </project>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd 
+                        http://code.alibabatech.com/schema/dubbo 
+                        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--
+        【说明】：项目是基于springboot的，所以下面注释的部分配置，已经在application-dev(pro).yml中配置了。 项目启动会自动注入配置；
+                  对于 <dubbo:service> 节点里面的一些参数，比如timeout、check等，也都无需在这xml中硬编码配置了，都在application-dev(pro).yml中配置好了。springboot还是很方便的
+        <dubbo:application name="${sping.application.name}" />
+        <dubbo:registry address="${zookeeper.register.center.url}" timeout="${dubbo.provider.timeout}" />
+        <dubbo:protocol name="${dubbo.rpc.protecol}" port="${dubbo.protocol.port}" codec="spring" />
+    -->
+    <!-- 基础服务 -->
+    <dubbo:service interface="pers.zb.center.service.user.api.basic.BasicConfigService" ref="basicConfigServiceImpl"  />
+    <dubbo:service interface="pers.zb.center.service.user.api.basic.BasicMessageWallService" ref="basicMessageWallServiceImpl"  />
+
+    <!-- 基础服务：User、Role、Permission、UserRole、RolePermission -->
+    <dubbo:service interface="pers.zb.center.service.user.api.user.UserService" ref="userServiceImpl"  />
+    <dubbo:service interface="pers.zb.center.service.user.api.sys.MenuService" ref="menuServiceImpl"  />
+    <dubbo:service interface="pers.zb.center.service.user.api.sys.RoleService" ref="roleServiceImpl"  />
+    <dubbo:service interface="pers.zb.center.service.user.api.sys.UserRoleService" ref="userRoleServiceImpl"  />
+    <dubbo:service interface="pers.zb.center.service.user.api.sys.PermissionService" ref="permissionServiceImpl"  />
+    <dubbo:service interface="pers.zb.center.service.user.api.sys.RolePermissionService" ref="rolePermissionServiceImpl"  />
+    <dubbo:service interface="pers.zb.center.service.user.api.sys.AppService" ref="appServiceImpl"  />
+    <dubbo:service interface="pers.zb.center.service.user.api.sys.ReUserAppService" ref="reUserAppServiceImpl"  />
+    <dubbo:service interface="pers.zb.center.service.user.api.monitor.MonitoLogService" ref="monitorServiceImpl"  />
+
+    <!-- 资源下载相关服务 -->
+    <dubbo:service interface="pers.zb.center.service.user.api.basic.BasicSourceDownloadService" ref="basicSourceDownloadServiceImpl"  />
+
+    <!-- 日志记录相关服务 -->
+    <dubbo:service interface="pers.zb.center.service.user.api.record.VisitRecordService" ref="visitRecordServiceImpl"  />
+
+    <!-- mongodb -->
+    <dubbo:service interface="pers.zb.center.service.user.api.mongodb.IUserService" ref="userService"  />
+
+    <dubbo:service interface="pers.zb.center.service.user.api.activemq.UserQueueMessageService" ref="userQueueMessageServiceImpl"  />
+
+    <dubbo:service interface="pers.zb.center.service.user.api.chat.IChatService" ref="IChatService"  />
+    <dubbo:service interface="pers.zb.center.service.user.api.sys.IEmployeeService" ref="IEmployeeService"  />
+    <dubbo:service interface="pers.zb.center.service.user.api.sys.IOrgService" ref="IOrgService"  />
+
+    <dubbo:service interface="pers.zb.center.service.user.api.springdatajpa.ISysWarnService" ref="SysWarnServiceImpl"  />
+
+
+</beans>
