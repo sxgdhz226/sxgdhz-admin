@@ -28,6 +28,7 @@
   <modules>
     <module>sxgdhz-web</module>
     <module>sxgdhz-api</module>
+    <module>sxgdhz-common</module>
   </modules>
 
   <dependencies>

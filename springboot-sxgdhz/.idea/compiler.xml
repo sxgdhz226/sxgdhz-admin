@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="RuoYi" />
         <module name="sxgdhz-api" />
+        <module name="sxgdhz-common" />
         <module name="sxgdhz-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="sxgdhz" target="1.8" />
       <module name="sxgdhz-api" target="1.8" />
+      <module name="sxgdhz-common" target="1.8" />
       <module name="sxgdhz-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
