@@ -1,0 +1,90 @@
+[
+  {
+    "orgname": "����",
+    "data": [
+      {
+        "gust": "60",
+        "windforce": "15",
+        "windspeed": "48",
+        "time": "2016-10-12 08:00:00",
+        "rr07": "240",
+        "pressure": "945",
+        "passthrough": "0",
+        "name": "ɣ��",
+        "longitude": "150.9",
+        "latitude": "31.3",
+        "distances": 3820
+      },
+      {
+        "gust": "60",
+        "windforce": "15",
+        "windspeed": "48",
+        "time": "2016-10-12 14:00:00",
+        "rr07": "240",
+        "pressure": "945",
+        "passthrough": "1",
+        "name": "ɣ��",
+        "longitude": "153.5",
+        "latitude": "32.7",
+        "LEADTIME": "6",
+        "distances": 4090
+      },
+      {
+        "gust": "52",
+        "windforce": "14",
+        "windspeed": "42",
+        "time": "2016-10-12 20:00:00",
+        "rr07": "200",
+        "pressure": "955",
+        "passthrough": "1",
+        "name": "ɣ��",
+        "longitude": "156.1",
+        "latitude": "34",
+        "LEADTIME": "12",
+        "distances": 4340
+      },
+      {
+        "gust": "52",
+        "windforce": "14",
+        "windspeed": "42",
+        "time": "2016-10-13 02:00:00",
+        "rr07": "200",
+        "pressure": "955",
+        "passthrough": "1",
+        "name": "ɣ��",
+        "longitude": "160.2",
+        "latitude": "35.8",
+        "LEADTIME": "18",
+        "distances": 4730
+      },
+      {
+        "gust": "48",
+        "windforce": "13",
+        "windspeed": "38",
+        "time": "2016-10-13 08:00:00",
+        "rr07": "180",
+        "pressure": "965",
+        "passthrough": "1",
+        "name": "ɣ��",
+        "longitude": "164.3",
+        "latitude": "37.6",
+        "LEADTIME": "24",
+        "distances": 5120
+      },
+      {
+        "gust": "33",
+        "windforce": "10",
+        "windspeed": "25",
+        "time": "2016-10-13 20:00:00",
+        "rr07": "170",
+        "pressure": "985",
+        "passthrough": "1",
+        "name": "ɣ��",
+        "longitude": "175.7",
+        "latitude": "41.9",
+        "LEADTIME": "36",
+        "distances": 6110
+      }
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "orgname": "����",
+    "data": [
+      {
+        "gust": "45",
+        "windforce": "12",
+        "windspeed": "35",
+        "time": "2016-11-07 14:00:00",
+        "rr07": "320",
+        "pressure": "970",
+        "passthrough": "0",
+        "name": "����",
+        "longitude": "147.6",
+        "latitude": "29",
+        "distances": 3480
+      },
+      {
+        "gust": "45",
+        "windforce": "12",
+        "windspeed": "35",
+        "time": "2016-11-07 20:00:00",
+        "rr07": "320",
+        "pressure": "970",
+        "passthrough": "1",
+        "name": "����",
+        "longitude": "148.1",
+        "latitude": "29.6",
+        "LEADTIME": "6",
+        "distances": 3540
+      },
+      {
+        "gust": "33",
+        "windforce": "10",
+        "windspeed": "25",
+        "time": "2016-11-08 02:00:00",
+        "rr07": "240",
+        "pressure": "985",
+        "passthrough": "1",
+        "name": "����",
+        "longitude": "148.6",
+        "latitude": "30.3",
+        "LEADTIME": "12",
+        "distances": 3590
+      },
+      {
+        "gust": "33",
+        "windforce": "10",
+        "windspeed": "25",
+        "time": "2016-11-08 08:00:00",
+        "rr07": "240",
+        "pressure": "985",
+        "passthrough": "1",
+        "name": "����",
+        "longitude": "150.1",
+        "latitude": "31.5",
+        "LEADTIME": "18",
+        "distances": 3750
+      },
+      {
+        "gust": "23",
+        "windforce": "8",
+        "windspeed": "18",
+        "time": "2016-11-08 14:00:00",
+        "rr07": "170",
+        "pressure": "995",
+        "passthrough": "1",
+        "name": "����",
+        "longitude": "151.6",
+        "latitude": "32.7",
+        "LEADTIME": "24",
+        "distances": 3910
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.net.ssd.ats.mapper.atsCaijiawsHour.TyphoonInfoMapper">
+
+    <insert id="insertTyphoon" parameterType="String">
+        ${insertTyphoonSql}
+    </insert>
+
+    <insert id="insertTyphoonActual" parameterType="String">
+        ${insertTyphoonActualSql}
+    </insert>
+
+    <insert id="insertTyphoonForeCast" parameterType="String">
+        ${insertTyphoonForeCastSql}
+    </insert>
+
+    <insert id="insertTyphoonList" parameterType="java.util.List">
+       insert into TyphoonList (TSID,TSCNAME,TSENAME,INTLID,LANDON,ORGIN,MEANINGS,REMARK,CREATETIME,FLAG) values
+        <foreach collection="list" close=")" open="(" separator="," item="item">
+            #{item.TSID},#{item.TSCNAME},#{item.TSENAME},#{item.INTLID},#{item.LANDON},#{item.ORGIN},#{item.MEANINGS},#{item.REMARK},#{item.CREATETIME},#{item.FLAG}
+        </foreach>
+    </insert>
+
+    <insert id="insertTyphoonActualList" parameterType="java.util.List">
+        <foreach collection="list" item="item" index="index" open="begin" close=";end;" separator=";">
+            insert into TyphoonActual (TSID,FCID,DDATETIME,TCRANK,LATITUDE,LONGITUDE,WINDSPEED,GUST,PRESSURE,DIRECTION,SPEED,RR06,RR07,RR08,RR10,RR12,CRTTIME) values
+            (#{item.TSID},#{item.FCID},#{item.DDATETIME},#{item.TCRANK},#{item.LATITUDE},#{item.LONGITUDE},#{item.WINDSPEED},#{item.GUST},#{item.PRESSURE},#{item.DIRECTION},#{item.SPEED},#{item.RR06},#{item.RR07},#{item.RR08},#{item.RR10},#{item.RR12},#{item.CRTTIME})
+        </foreach>
+    </insert>
+
+    <insert id="insertTyphoonForeCastList" parameterType="java.util.List">
+        <foreach collection="list" item="item" index="index" open="begin" close=";end;" separator=";">
+            insert into TyphoonMetar (TSID,FCID,DDATETIME,TCRANK,LATITUDE,LONGITUDE,WINDSPEED,GUST,PRESSURE,DIRECTION,SPEED,RR06,RR07,RR08,RR10,RR12,CRTTIME,RD06,RD07,RD08,RD10,RD12) values
+            (#{item.TSID},#{item.FCID},#{item.DDATETIME},#{item.TCRANK},#{item.LATITUDE},#{item.LONGITUDE},#{item.WINDSPEED},#{item.GUST},#{item.PRESSURE},#{item.DIRECTION},#{item.SPEED},#{item.RR06},#{item.RR07},#{item.RR08},#{item.RR10},#{item.RR12},#{item.CRTTIME},#{item.RD06},#{item.RD07},#{item.RD08},#{item.RD10},#{item.RD12})
+        </foreach>
+    </insert>
+
+    <insert id="insertTyphoonActualMap" parameterType="java.util.Map">
+            insert into TyphoonActual (TSID,FCID,DDATETIME,TCRANK,LATITUDE,LONGITUDE,WINDSPEED,GUST,PRESSURE,DIRECTION,SPEED,RR06,RR07,RR08,RR10,RR12,CRTTIME) values
+            (#{TSID},#{FCID},#{DDATETIME},#{TCRANK},#{LATITUDE},#{LONGITUDE},#{WINDSPEED},#{GUST},#{PRESSURE},#{DIRECTION},#{SPEED},#{RR06},#{RR07},#{RR08},#{RR10},#{RR12},#{CRTTIME})
+    </insert>
+
+    <insert id="insertTyphoonForeCastMap" parameterType="java.util.Map">
+            insert into TyphoonMetar (TSID,FCID,DDATETIME,TCRANK,LATITUDE,LONGITUDE,WINDSPEED,GUST,PRESSURE,DIRECTION,SPEED,RR06,RR07,RR08,RR10,RR12,CRTTIME,RD06,RD07,RD08,RD10,RD12) values
+            (#{TSID},#{FCID},#{DDATETIME},#{TCRANK},#{LATITUDE},#{LONGITUDE},#{WINDSPEED},#{GUST},#{PRESSURE},#{DIRECTION},#{SPEED},#{RR06},#{RR07},#{RR08},#{RR10},#{RR12},#{CRTTIME},#{RD06},#{RD07},#{RD08},#{RD10},#{RD12})
+    </insert>
+
+    <select id="getTyphoonName" resultType="java.util.Map">
+        SELECT T1.ID,SNO,(SELECT T2.CHINESE_NAME FROM P_DATA.TYPHOON_NAME T2 WHERE T2.ID = T1.NAME_ID) as NAME
+        from P_DATA.TYPHOON t1 where sno like '${year}%' ORDER BY id DESC
+    </select>
+
+    <select id="getTyphoonByTsid" resultType="java.lang.Long">
+        select count(*) from TyphoonList t where t.tsid = #{tsid}
+    </select>
+
+    <select id="isExistTyphoonActual" resultType="java.lang.Integer">
+        select count(*) from TyphoonActual t where t.tsid = #{TSID} and t.DDATETIME = #{DDATETIME}
+    </select>
+
+    <select id="isExistTyphoonMetar" resultType="java.lang.Integer">
+        select count(*) from TyphoonMetar t where t.tsid = #{TSID} and t.DDATETIME = #{DDATETIME}
+    </select>
+
+    <delete id="deleteTyphoonActualByTcid" parameterType="java.lang.Integer">
+        delete from TyphoonActual where tsid = ${tsid}
+    </delete>
+
+    <delete id="deleteTyphoonMetarByTcid" parameterType="java.lang.Integer">
+        delete from TyphoonMetar where tsid = ${tsid}
+    </delete>
+
+</mapper>

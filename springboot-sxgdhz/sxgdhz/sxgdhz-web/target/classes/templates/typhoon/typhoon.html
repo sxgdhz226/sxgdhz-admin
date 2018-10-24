@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+		<script src="../js/lib/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+		<title>台风</title>
+		<link rel="stylesheet" type="text/css" href="../css/lib/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/lib/ol.css" />
+		<link rel="stylesheet" type="text/css" href="../css/lib/ssd.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/view/typhoon.css" />
+	</head>
+	<body onload="init()">
+		<div id="map"></div>
+		<div style="position:absolute;z-index:160;line-height:16px;display:block!important;bottom:0;margin-left:13cm;font-size:15px;font-family:Tahoma;font-weight:bold;">
+			<span>©2018 高德软件 GS(2017)3426号</span>
+		</div>
+		<!--
+        	作者：546989691@qq.com
+        	时间：2017-02-15
+        	描述：左侧菜单栏整体
+        -->
+        <div class="left-mune">
+        	<!--
+	        	作者：546989691@qq.com
+	        	时间：2017-02-18
+	        	描述：收缩左侧菜单栏
+	        -->
+	       	<img id="closebox" class="leftImg" src="img/left.png"/>
+        	 <div class="typhoon">
+        	 	<p>台风列表</p>
+        	 	<div class="typhoonTableDiv">
+	        	 	<table id="typhoonTable" class="table typhoonTable">
+	        	 		<tbody id="typhoonTable_tbody">
+	        	 			
+	        	 		</tbody>
+	        	 	</table>
+        	 	</div>
+        	 </div>
+        	 <div class="typhoonRoute">
+        	 	<p>台风路径信息</p>
+        	 	<!--<label class="time">时间</label><label class="windforce">风力</label><label class="windspeed">风速</label><label class="press">气压</label>-->
+        	 	<table class="tableHead"><thead><tr><th>时间</th><th>风力</th><th>风速</th><th>气压</th></tr></thead></table>
+	        	 <div class="typhoonRouteTableDiv">
+	        	 	<table id="typhoonRouteTable" class="table typhoonRouteTable">
+	        	 		<tbody id="typhoonRouteTable_tbody" class="typhoonRouteTable_tbody">
+	        	 		</tbody>
+	        	 	</table>
+        	 	</div>
+        	 </div>
+        </div>
+        <!--
+        	作者：546989691@qq.com
+        	时间：2017-02-16
+        	描述：台风图例
+        -->
+        <div class="typhoonLen_legend" >
+        	<p>台风图例</p>
+        	<label><img src="../img/typhoon/6-7.png" /><span>热带低压</span></label><br />
+        	<label><img src="../img/typhoon/8-9.png" /><span>热带风暴</span></label><br />
+        	<label><img src="../img/typhoon/10-11.png" /><span>强热带风暴</span></label><br />
+        	<label><img src="../img/typhoon/12-13.png" /><span>台风</span></label><br />
+        	<label><img src="../img/typhoon/14-15.png" /><span>强台风</span></label><br />
+        	<label><img src="../img/typhoon/16-17.png" /><span>超强台风</span></label><br />
+        </div>
+        <!--
+        	作者：546989691@qq.com
+        	时间：2017-02-17
+        	描述：
+        -->
+		<script type="text/javascript" src="../js/lib/jquery-1.11.3.min.js"  charset="utf-8"></script>
+		<script type="text/javascript" src="../js/lib/ol.js"  charset="utf-8"></script>
+		<script type="text/javascript" src="../config/config.js" charset="utf-8"></script>
+		<script type="text/javascript" th:src="@{/js/lib/Mark.js}"  charset="utf-8"></script>
+		<script type="text/javascript"  th:src="@{/js/lib/ssd.min.js}" charset="utf-8"></script>
+		<script type="text/javascript" th:src="@{/js/view/typhoon.js}" charset="utf-8"></script>
+		<script>
+			//点击箭头显示隐藏
+			$("#closebox").click(function() {
+				"0px" == $(".left-mune").css("left") ? ($(".left-mune").animate({
+					left: "-15%"
+				}, "normal", function() {
+					$(".leftImg").attr("src", "img/right.png");
+					$(".leftImg").css('right','-9%');
+					$(".leftImg").css('top','15px');
+				})) : ($(".left-mune").animate({
+					left: "0"
+				}, "normal", function() {
+					$(".leftImg").attr("src", "img/left.png");
+					$(".leftImg").css('right','4%');
+					$(".leftImg").css('top','5px');
+				}))
+			});
+			$(document.body).css({
+				"overflow-x": "hidden",
+				"overflow-y": "hidden"
+			});
+			//url:"http://www.zhmb.gov.cn/jeecms/web/createTyphoonPic",
+			function exportMap() {
+				map.once('postcompose', function(event) {
+					var url = event.context.canvas.toDataURL('image/png');
+					
+					var params = {"url":url};
+					$.ajax({
+						type:"POST",
+						dateType:"json",
+						url:"http://localhost/web/createTyphoonPic",
+						data:params,
+						error:function (XMLHttpRequest, textStatus, errorThrown) {      
+						alert("请求失败！");
+					}
+			});
+
+				});	
+}
+
+		//setInterval("exportMap()", 1000);
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+[
+  {
+    "orgname": "����",
+    "data": [
+      {
+        "gust": "48",
+        "windforce": "13",
+        "windspeed": "38",
+        "time": "2017-11-04 08:00:00",
+        "rr07": "350",
+        "pressure": "965",
+        "passthrough": "0",
+        "name": "��ά",
+        "longitude": "109.1",
+        "latitude": "12.6",
+        "distances": 1180
+      },
+      {
+        "gust": "36",
+        "windforce": "10",
+        "windspeed": "28",
+        "time": "2017-11-04 14:00:00",
+        "rr07": "270",
+        "pressure": "982",
+        "passthrough": "1",
+        "name": "��ά",
+        "longitude": "107.9",
+        "latitude": "12.5",
+        "LEADTIME": "6",
+        "distances": 1240
+      },
+      {
+        "gust": "21",
+        "windforce": "7",
+        "windspeed": "16",
+        "time": "2017-11-04 20:00:00",
+        "rr07": "",
+        "pressure": "1002",
+        "passthrough": "1",
+        "name": "��ά",
+        "longitude": "106.3",
+        "latitude": "12.4",
+        "LEADTIME": "12",
+        "distances": 1340
+      }
+    ]
+  }
+]

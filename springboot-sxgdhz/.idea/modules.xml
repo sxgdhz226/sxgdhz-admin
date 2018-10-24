@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz-api/sxgdhz-api.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/sxgdhz-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/sxgdhz-web.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/sxgdhz-web.iml" />
+    </modules>
+  </component>
+</project>

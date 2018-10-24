@@ -1,0 +1,657 @@
+﻿//全局变量
+var map;
+var lastFData;//用来展示台风图片的点
+/**
+ * 初始化js程序
+ * **/
+function init(){
+	initMap();
+	initData();
+	initTable();
+	canvasCircle();
+	mapUtil.addPopup(map);
+}
+/**
+ * 初始化地图
+ * **/
+function initMap(){
+//	var type = 'sate';
+	var type = 'road';
+//	map = mapUtil.createBaiduMap('map',commonConfig.baseLayerCenter,type,commonConfig.baseLayerMinZoom,commonConfig.baseLayerZoom,commonConfig.baseLayerMaxZoom)
+	var arr = ol.proj.transform(commonConfig.baseLayerCenter, commonConfig.dataProjection, commonConfig.featureProjection);
+	var arr1 = ol.proj.transform([90,-20], commonConfig.dataProjection, commonConfig.featureProjection);
+	var arr2 = ol.proj.transform([135,49], commonConfig.dataProjection, commonConfig.featureProjection);
+	var baidu = initBaiDu();
+	map = new ol.Map({
+		target: 'map', //承载map的div的ID名
+		layers: [baidu],
+		view: new ol.View({
+			projection: commonConfig.featureProjection,
+			center: ol.proj.transform(commonConfig.baseLayerCenter, commonConfig.dataProjection, commonConfig.featureProjection), //初始化的中心点
+			extent:[arr1[0],arr1[1],arr2[0],arr2[1]],
+			zoom: commonConfig.baseLayerZoom, //初始化的地图等级
+			maxZoom: commonConfig.baseLayerMaxZoom,
+			minZoom: commonConfig.baseLayerMinZoom,
+		}),
+		controls: [
+			new ol.control.ScaleLine(),
+			new ol.control.Attribution()
+		],
+	});
+	//ol.control.initLayerSwitcher(map, 'online', '','矢量');
+
+}
+function initBaiDu(){
+	 var projection = ol.proj.get("EPSG:3857");
+    var resolutions = [];
+    for(var i=0; i<19; i++){
+        resolutions[i] = Math.pow(2, 18-i);
+    }
+    var tilegrid  = new ol.tilegrid.TileGrid({
+        origin: [0,0],
+        resolutions: resolutions
+    });
+
+    var baidu_source = new ol.source.TileImage({
+		crossOrigin: 'anonymous',
+        projection: projection,
+        tileGrid: tilegrid,
+        tileUrlFunction: function(tileCoord, pixelRatio, proj){
+            if(!tileCoord){
+                return "";
+            }
+            var z = tileCoord[0];
+            var x = tileCoord[1];
+            var y = tileCoord[2];
+
+            if(x<0){
+                x = "M"+(-x);
+            }
+            if(y<0){
+                y = "M"+(-y);
+            }
+            return "http://online3.map.bdimg.com/onlinelabel/?qt=tile&x="+x+"&y="+y+"&z="+z+"&styles=pl&udt=20151021&scaler=1&p=1";
+        }
+    });
+
+    var baidu_layer = new ol.layer.Tile({
+        source: baidu_source,
+		crossOrigin: '*'
+    });
+    return baidu_layer;
+}
+/**初始化台风数据表格的宽和高**/
+function initTable(){
+	var tableHeight = $('.typhoon')[0].clientHeight - $('.typhoon p')[0].clientHeight-10;
+	$('.typhoonTableDiv').css('height',tableHeight);
+	var tableRouteHeight = $('.typhoonRoute')[0].clientHeight - $('.typhoonRoute p')[0].clientHeight-30;
+	$('.typhoonRouteTableDiv').css('height',tableRouteHeight);
+}
+/**
+ * 选中台风得到数据
+ * {String} name 台风数据的名称
+ * {String} nameId 台风数据的编码
+ * **/
+function getTyphoonData(name,nameId){
+	if(mapUtil.findLayerById(map,name+'Layer')!=undefined){
+		map.removeOverlay(map.getOverlayById(name));
+		mapUtil.removeLayerById(map,name+'Layer');
+		//取消checked
+		cancelTyphoon(name);
+		return;
+	}
+	var params = {
+		nameId: nameId,
+		name: name
+	}
+	$.ajax({
+		type:"get",
+		url:liveconfig.getTyphoonRoute,
+		dataType:liveconfig.ajaxDataType,
+		async:true,
+		data: params,
+		success:function(result){
+			if(result.length>0){
+				$.ajax({
+					type:"get",
+					url:liveconfig.getTyphoonForcast,
+					dataType:liveconfig.ajaxDataType,
+					data: params,
+					async:true,
+					success:function(forcastTyphoon){
+						if(forcastTyphoon.length>0){
+							showTyphoon(result,name,forcastTyphoon);
+						}else{
+							showTyphoon(result,name,[{"data": []}]);
+						}
+					}
+				});
+			}else{
+				$.ajax({
+					type:"get",
+					url:liveconfig.getTyphoonForcast,
+					dataType:liveconfig.ajaxDataType,
+					data: params,
+					async:true,
+					success:function(forcastTyphoon){
+						if(forcastTyphoon.length>0){
+							showTyphoon([],name,forcastTyphoon);
+						}else{
+							showTyphoon([],name,[{"data": []}]);
+						}
+					}
+				});
+			}
+		},
+		error: function() {
+			alert("请求失败");
+		}
+	});
+}
+/**
+ * 取消checked选中查询当前选中的第一个
+ * **/
+function cancelTyphoon(cancelname){
+	if($(".typhoonTable input:checkbox:checked").length>0){
+		$(".ol-overlay-container ."+cancelname).empty();
+		var typhoonName = $(".typhoonTable input:checkbox:checked")[0].className;
+		var typhoonId = $(".typhoonTable input:checkbox:checked")[0].id;
+		var myid=$("#id_"+typhoonId).val();
+		var params = {
+			nameId: typhoonId,
+			name: typhoonName,
+		}
+		$.ajax({
+			type:"get",
+			url:liveconfig.getTyphoonRoute,
+			dataType:liveconfig.ajaxDataType,
+			async:true,
+			data: params,
+			success:function(result){
+				if(result.length>0){
+					//$('.ol-overlaycontainer').empty();
+					showTyphoonPath(result,typhoonName);
+				}else{
+					$('.ol-overlaycontainer').empty();
+					$('#typhoonRouteTable_tbody').empty();
+					$('.typhoonRoute p').html('台风路径信息');
+				}
+			}
+		})
+	}else{
+		$('.ol-overlaycontainer').empty();
+		$('#typhoonRouteTable_tbody').empty();
+		$('.typhoonRoute p').html('台风路径信息');
+	}
+}
+/**
+ * 处理数据展示到地图上
+ * {Array} data 请求数据的地址
+ * {String} name 请求数据的名称
+ * **/
+function showTyphoon(data,name,forcastTyphoon){
+	lastFData = data[data.length-1];
+	var geojson = showTyphoonLine(data);
+	var forcastgeojson;
+	if(forcastTyphoon.length>0){
+		forcastgeojson = showTyphoonLine(forcastTyphoon);
+	}
+	var layerId = name+'Layer';
+	var params={"layerId":layerId,"layerCaption":"台风数据","opacity":0,"zIndex":1,"crs":"EPSG:3857","style":jsonStyle,"x":"longitude","y":"latitude"};
+	//填充台风路径表格
+	showTyphoonPath(data,name);	
+	$.each(forcastTyphoon, function(i,f) {
+		data.push(f);
+	});
+	var jsonLayer = layerUtil.createPointJsonLayer(data,params);
+	jsonLayer.getSource().addFeatures((new ol.format.GeoJSON()).readFeatures(geojson, {
+				dataProjection: commonConfig.dataProjection,
+				featureProjection: commonConfig.featureProjection
+			}));
+	if(forcastgeojson!=undefined){
+		var forcastTyphoons = (new ol.format.GeoJSON()).readFeatures(forcastgeojson, {dataProjection: commonConfig.dataProjection,featureProjection: commonConfig.featureProjection});
+		$.each(forcastTyphoons, function(i,f) {
+			f.setStyle(forcastTyphoonStyle);
+			jsonLayer.getSource().addFeature(f);
+		});
+	}
+	map.addLayer(jsonLayer);
+	//定位到台风
+	addSelectInteractionMove(jsonLayer);
+	fitTyphoon(lastFData);
+	//加入台风点
+	addTyphoonImg(jsonLayer,lastFData);
+	//鼠标移动事件
+
+	
+}
+
+/**
+ * 定位到台风
+ * **/
+function fitTyphoon(lastFData){
+	var view=map.getView();
+	var arr  = ol.proj.transform([parseFloat(lastFData['longitude']),parseFloat(lastFData['latitude'])],commonConfig.dataProjection,commonConfig.featureProjection);
+	view.setCenter(arr);
+}
+/**预报线的样式**/
+function forcastTyphoonStyle(){
+	return new ol.style.Style({
+		stroke: new ol.style.Stroke({
+			lineDash:[8,8],
+				color: 'red',
+				width: 1.0
+		})
+	});
+}
+/**
+ * 添加台风图片
+ * {object} layer 图层
+ * {object} feature 要加入图层的feature
+ * **/
+function addTyphoonImg(layer,feature){
+	var geoObj = {
+		"type": "FeatureCollection",
+		"features": []
+	};
+	var x=parseFloat(feature.longitude);
+	var y=parseFloat(feature.latitude);
+	var g = {
+		"type": "Point",
+		"coordinates": [x,y]
+	};
+	var featureTime = feature.time;
+	var arr = layer.getSource().getFeatures();
+	$.each(arr, function(i,fea) {
+		if(fea.get('time')==featureTime && fea.getGeometry().getType()=='Point'){
+			var typhoonId = fea.get('name');
+			var typhoon = new ol.Overlay.Popup ({
+				id:typhoonId,
+				onclose: function(){ console.log("You close the box"); },
+				positioning: 'center-left',
+				autoPan: true,
+			});
+			
+			typhoon.addPopupClass(typhoonId);
+			typhoon.setPosition(ol.extent.getCenter(fea.getGeometry().getExtent()));
+			map.addOverlay(typhoon);
+			$('.'+typhoonId)[0].style.minHeight='0px';
+			$('.'+typhoonId)[0].style.minWidth='0px';
+			$('.'+typhoonId+' .anchor')[0].style.display='none';
+			$('.'+typhoonId).css("color","#000");
+			$('.'+typhoonId+' .content')[0].style.height="20px";
+			$('.'+typhoonId+' .content')[0].style.width="250px";
+			var Grade = typhoonGrade(fea.get("windforce"));
+			var name = fea.get("name");
+			if(name==undefined){
+				name = "";
+			}
+			if(featureTime==undefined){
+				featureTime="";
+			}
+			var grade = Grade[1];
+			if(grade==undefined){
+				grade="";
+			}
+			var content =name+","+ featureTime+","+grade;
+			$('.'+typhoonId+' .content').css('text-align','center');
+			$('.'+typhoonId+' .content').html(content);
+			map.on('postcompose',animate);
+		}
+	});
+	feature.time ="";
+	feature.name ="typhoonImg";
+	var f = {
+		"type": "Feature",
+		"properties":feature,
+		"geometry":g
+	};
+	geoObj.features.push(f);
+	layer.getSource().addFeatures((new ol.format.GeoJSON()).readFeatures(geoObj, {
+		dataProjection: commonConfig.dataProjection,
+		featureProjection: commonConfig.featureProjection
+	}));
+}
+/**
+ * 台风图标动态旋转
+ * **/
+var start = new Date().getTime();
+function animate(event){
+	var vectorContext = event.vectorContext;
+	var frameState = event.frameState;
+	var elapsed=(frameState.time-start)/8;
+	var layerArr = map.getLayers().getArray();
+	$.each(layerArr, function(i,layer) {
+		if(layer.get('layerId')==undefined){return;}
+		if(layer.get('layerId')!='baseLayer'){
+			var arrFeatures = layer.getSource().getFeatures();
+			$.each(arrFeatures, function(i,f) {
+				if(f.get('name')=='typhoonImg'){
+					f.setStyle(
+						new ol.style.Style({
+							image: new ol.style.Icon( /** @type {olx.style.IconOptions} */ ({
+								rotation: Math.PI / 180 * elapsed,
+								scale: 0.5,
+								src: 'img/typhoon.png',
+							}))
+						})
+					);
+				}
+			});
+		}
+	});
+}
+/**
+ * 添加地图图层移动事件
+ * {object} jsonLayer 绑定事件的图层
+ * **/
+function addSelectInteractionMove(jsonLayer){
+	mapUtil.addLayerPopup(map,jsonLayer,'move',movePoint);
+}
+/**
+ * 鼠标移动到点时触发的事件
+ * **/
+function movePoint(p){
+	map.getOverlayById('popup').autoPan = false;
+	if(p.geometry.getType()=='Point' && p.name !='typhoonImg'){
+		return fillTable(p);
+	}else{
+		return {title:'',content:''};
+	}
+}
+/**动态填充表格**/
+function fillTable(p){
+	var typhoonInfo = '<table class="table typhoonInfoTable" ><tr><td>台风名称</td><td>'+p.name+'</td></tr>';
+		typhoonInfo += '<tr><td>经度</td><td>'+p.longitude+'</td></tr>';
+		typhoonInfo += '<tr><td>纬度</td><td>'+p.latitude+'</td></tr>';
+		if(p.pressure != ''){p.pressure=p.pressure+'hpa'};
+		typhoonInfo += '<tr><td>中心气压</td><td>'+p.pressure+'</td></tr>';
+		typhoonInfo += '<tr><td>时间</td><td>'+p.time+'</td></tr>';
+		if(p.windspeed != ''){p.windspeed=p.windspeed+'m/s'};
+		typhoonInfo += '<tr><td>风速</td><td>'+p.windspeed+'</td></tr>';
+		if(p.windforce != ''){p.windforce=p.windforce+'级'};
+		typhoonInfo += '<tr><td>风力</td><td>'+p.windforce+'</td></tr>';
+		typhoonInfo += '</table>'
+		return {title:'台风路径信息展示',content:typhoonInfo};
+}
+/**台风数据样式**/
+function jsonStyle(feature){
+	var windforce = parseInt(feature.get('windforce'));
+	var color = typhoonGrade(windforce);
+	if(feature.getGeometry().getType()=='LineString'){
+		var style = new ol.style.Style({
+			stroke: new ol.style.Stroke({
+					color: "black",
+					width: 2
+			})
+		});
+		feature.setStyle(style);
+	};
+		return new ol.style.Style({
+			image: new ol.style.Circle({
+				radius: 5,
+				fill: new ol.style.Fill({
+					color: color[0]
+				}),
+			}),
+		})
+}
+///**台风等级划分**/
+//function typhoonGrade(windforce){
+//	var color;
+//	var content="";
+//	var colorAndcontent=[];
+//	if(windforce >= 16){
+//		content = "超强台风";
+//		color= "#fd0026";
+//	}else if(windforce <= 15 && windforce >= 14){
+//		content = "强台风";
+//		color= "#fd5c1c";
+//	}else if(windforce <= 13 && windforce >= 12){
+//		content = "台风";
+//		color= "#fd8b00";
+//	}else if(windforce <= 11 && windforce >= 10){
+//		content = "强热带风暴";
+//		color= "#fdb700";
+//	}else if(windforce <= 9 && windforce >= 8){
+//		content = "热带风暴";
+//		color= "#f4d000";
+//	}else if(windforce <= 7 ){
+//		content = "热带低压";
+//		color= "#f6f200";
+//	}
+//	colorAndcontent.push(color);
+//	colorAndcontent.push(content);
+//	return colorAndcontent;
+//}
+
+
+/**台风等级划分**/
+function typhoonGrade(windforce) {
+	var color = "";
+	var content = "";
+	var colorAndcontent = [];
+	if(windforce >= 16) {
+		content = "超强台风";
+		color = "#fe0202";
+	} else if(windforce <= 15 && windforce >= 14) {
+		content = "强台风";
+		color = "#f171f9";
+	} else if(windforce <= 13 && windforce >= 12) {
+		content = "台风";
+		color = "#ffac05";
+	} else if(windforce <= 11 && windforce >= 10) {
+		content = "强热带风暴";
+		color = "#fffb05";
+	} else if(windforce <= 9 && windforce >= 8) {
+		content = "热带风暴";
+		color = "#0264ff";
+	} else if(windforce <= 7) {
+		content = "热带低压";
+		color = "#02ff02";
+	}
+	colorAndcontent.push(color);
+	colorAndcontent.push(content);
+	return colorAndcontent;
+}
+/**
+ * 处理台风数据转换为geoserver得到台风路径
+ * {Array} 台风数据数组
+ * **/
+function showTyphoonLine(data){var geojson = {
+		"type": "FeatureCollection",
+		"features": []
+	};
+	var g = {
+			"type": "LineString",
+			"coordinates": []
+		};
+	for(var i=0;i<data.length;i++){
+		var f = {
+			"type": "Feature",
+			"properties": {},
+			"geometry": {}
+		};
+		g.coordinates.push([parseFloat(data[i]['longitude']), parseFloat(data[i]['latitude'])])
+		f.geometry = g;
+		for(var key in data[i]) {
+			f.properties[key] = data[i][key];
+		}
+		geojson.features.push(f);
+	}
+	return geojson;}
+/**
+ * 绘制圆
+ * 113.5795,22.2788 珠海坐标
+ * @param [x,y] center 扇形中心点
+* @param number randius 扇形半径 与中心点对应的坐标系单位
+* @param number sAngle 扇形起始边与X轴正方向夹角°
+* @param number angle 圆心角°（逆时针方向为正）
+ * **/
+function canvasCircle(){
+	var params={"layerId":"areaLayer","layerCaption":"台风数据","opacity":0,"zIndex":1,"crs":"EPSG:3857","style":areaStyle,"x":"longitude","y":"latitude"};
+	var jsonLayer = layerUtil.createPointJsonLayer([],params);
+	map.addLayer(jsonLayer);
+	var point1=ol.proj.transform([113.5795,22.1648], commonConfig.dataProjection, commonConfig.featureProjection);
+	var featuresLine=[];
+	var arrPoints = [{"sa":230,"ea":380,"r":400000,"name":"400公里"},{"sa":200,"ea":390,"r":800000,"name":"800公里"}];
+	$.each(arrPoints,function(j,p){
+		var points=[];
+		for(var i=p.sa;i<=p.ea;i+=1){
+			var ax=p.r*Math.cos((i*Math.PI)/(180));
+			var ay=p.r*Math.sin((i*Math.PI)/(180));
+			var point=[(point1[0]+ax),(point1[1]+ay)];
+			points.push(point);
+		}
+		var lineFeature = new ol.Feature({
+			geometry : new ol.geom.LineString(points),
+			properties : {"name":p.name}
+		})
+		featuresLine.push(lineFeature);
+	})
+	
+	var pointFeature = new ol.Feature({
+		geometry : new ol.geom.Point(point1),
+		properties : {"name":"珠海"}
+	})
+	var features = [pointFeature,featuresLine[0],featuresLine[1]];
+	jsonLayer.getSource().addFeatures(features);
+	function areaStyle(f){
+		var color;
+		var font;
+		if(f.get('properties').name=='珠海'){
+//			color = '#EEE8AA';
+			color = 'red';
+			font = '22px 微软雅黑';
+		}else{
+//			color = 'orange';
+			color = '#000';
+			font = '10px 微软雅黑';
+		}
+		return new ol.style.Style({
+			stroke: new ol.style.Stroke({
+				lineDash:[8,8],
+					color: '#000',
+					width: 2
+			}),
+			image: new ol.style.Circle({
+				radius: 5,
+				fill: new ol.style.Fill({
+					color: 'red'
+				}),
+			}),
+			text:new ol.style.Text({
+				text: f.get('properties').name,
+				offsetX: 0,
+				offsetY: -15,
+				font: font,
+				fill: new ol.style.Fill({
+					color: color,
+					width: 3
+				}),
+			})
+		})
+	}
+}
+/**
+ * 台风路径表格填充
+ * {Array} data
+ * {String} 当前台风名称
+ * **/
+function showTyphoonPath(data,name){
+	$('.typhoonRoute p').html(name+'路径信息');
+	var oTable = document.getElementById("typhoonRouteTable");
+	var rowNum = oTable.rows.length;
+	for(i = 1; i < rowNum; i++) {
+		oTable.deleteRow(i);
+		rowNum = rowNum - 1;
+		i = i - 1;
+	}
+	var tbody = document.getElementById("typhoonRouteTable_tbody");
+data =  data.reverse();
+$.each(data, function(i, f) {
+		var oTr = document.createElement("tr"); //新建一个tr类型的Element节点
+		oTr.tag = f;
+//	    oTr.setAttribute('onmouseover', "moveTr(this)");
+		var oTd = document.createElement("td"); //新建一个td类型的Element节点
+		oTd.setAttribute('class','timeTd');
+		var time = f.time.substring(5,16)
+		oTd.innerHTML = time;
+		oTr.appendChild(oTd);
+		var oTd = document.createElement("td"); //新建一个td类型的Element节点
+		if(f.windforce!=''){
+			oTd.innerHTML = f.windforce+"级";
+		}
+		oTd.setAttribute('class','windforceId');
+		oTr.appendChild(oTd);
+		var oTd = document.createElement("td"); //新建一个td类型的Element节点
+		if(f.windspeed!=''){
+			oTd.innerHTML = f.windspeed+'m/s';
+		}
+		oTd.setAttribute('class','windspeedTd');
+		oTr.appendChild(oTd);
+		var oTd = document.createElement("td"); //新建一个td类型的Element节点
+		if(f.pressure!=''){
+			oTd.innerHTML = f.pressure+'hpa';			
+		}
+		oTr.appendChild(oTd);
+		tbody.appendChild(oTr);
+	});
+}
+/**初始化台风列表数据**/
+function initData(){
+	var url;
+	var isIndex=false;
+	var address = window.parent.location.pathname;
+	
+	address = address.substring(address.length-5,address.length);
+	if(address=='index'){
+		url = liveconfig.getNewTyphoonLiat;
+		isIndex = true;
+		$('.left-mune').css('display','none');
+		
+	}else{
+		url = liveconfig.getTyphoonList;
+		$('.left-mune').css('display','block');
+	}
+	//查询数据放到台风列表
+	$.ajax({
+		type:"get",
+		url:url,
+		dataType:liveconfig.ajaxDataType,
+		success:function(result){
+			if(result.length>0){
+				showTyphoonTable(result,isIndex);
+			}
+		}
+	});
+}
+/**
+ * 展示台风列表数据
+ * {Array} data 台风列表数据
+ * **/
+function showTyphoonTable(data,isIndex){
+	var tbody = document.getElementById("typhoonTable_tbody");
+	$.each(data, function(i, f) {
+		var oTr = document.createElement("tr"); //新建一个tr类型的Element节点
+		oTr.tag = f;
+		var oTd = document.createElement("td"); //新建一个td类型的Element节点
+		oTd.innerHTML = "<input id='"+f.nameId+"' class='"+f.name+"' type='checkbox' /><input id='id_"+f.nameId+"' type='hidden' value='"+f.id+"'/>";
+		oTr.appendChild(oTd);
+		var oTd = document.createElement("td"); //新建一个td类型的Element节点
+		oTd.innerHTML = f.name;
+		oTr.appendChild(oTd);
+		var oTd = document.createElement("td"); //新建一个td类型的Element节点
+		oTd.innerHTML = f.nameId;
+		oTr.appendChild(oTd);
+		var oTd = document.createElement("td"); //新建一个td类型的Element节点
+		oTd.innerHTML = f.Ename;
+		oTr.appendChild(oTd);
+		tbody.appendChild(oTr);
+		$('#'+f.nameId)[0].setAttribute('onclick', "getTyphoonData('"+f.name+"','"+f.id+"')");
+		if(i==0){
+			$('#'+f.nameId).click();
+		}
+	});
+}
+

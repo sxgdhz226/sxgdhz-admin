@@ -1,0 +1,2 @@
+lastTyphoon:当前生效台风.
+typhoonName:近两年台风数据。其中：state为0的不需要更新，null或者1，是需要更新的台风

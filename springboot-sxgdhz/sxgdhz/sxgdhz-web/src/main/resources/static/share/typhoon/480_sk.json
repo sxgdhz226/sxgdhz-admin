@@ -1,0 +1,93 @@
+[
+  {
+    "gust": "20",
+    "windforce": "7",
+    "windspeed": "15",
+    "time": "2016-10-13 11:00:00",
+    "rr07": "",
+    "pressure": "1002",
+    "passthrough": "0",
+    "name": "δ����",
+    "longitude": "109.3",
+    "latitude": "16.5",
+    "distances": 780
+  },
+  {
+    "gust": "20",
+    "windforce": "7",
+    "windspeed": "15",
+    "time": "2016-10-13 14:00:00",
+    "rr07": "",
+    "pressure": "1002",
+    "passthrough": "0",
+    "name": "δ����",
+    "longitude": "108.9",
+    "latitude": "16.5",
+    "distances": 810
+  },
+  {
+    "gust": "20",
+    "windforce": "7",
+    "windspeed": "15",
+    "time": "2016-10-13 17:00:00",
+    "rr07": "",
+    "pressure": "1002",
+    "passthrough": "0",
+    "name": "δ����",
+    "longitude": "108.7",
+    "latitude": "16.6",
+    "distances": 810
+  },
+  {
+    "gust": "20",
+    "windforce": "7",
+    "windspeed": "15",
+    "time": "2016-10-13 20:00:00",
+    "rr07": "",
+    "pressure": "1002",
+    "passthrough": "0",
+    "name": "δ����",
+    "longitude": "108.3",
+    "latitude": "16.6",
+    "distances": 840
+  },
+  {
+    "gust": "",
+    "windforce": "7",
+    "windspeed": "15",
+    "time": "2016-10-13 23:00:00",
+    "rr07": "",
+    "pressure": "1002",
+    "passthrough": "0",
+    "name": "δ����",
+    "longitude": "108.2",
+    "latitude": "16.6",
+    "distances": 850
+  },
+  {
+    "gust": "20",
+    "windforce": "7",
+    "windspeed": "15",
+    "time": "2016-10-14 02:00:00",
+    "rr07": "",
+    "pressure": "1002",
+    "passthrough": "0",
+    "name": "δ����",
+    "longitude": "107.5",
+    "latitude": "16.6",
+    "distances": 900
+  },
+  {
+    "gust": "",
+    "windforce": "7",
+    "windspeed": "15",
+    "time": "2016-10-14 05:00:00",
+    "rr07": "",
+    "pressure": "1002",
+    "passthrough": "0",
+    "name": "δ����",
+    "longitude": "107.2",
+    "latitude": "16.8",
+    "distances": 900
+  }
+]

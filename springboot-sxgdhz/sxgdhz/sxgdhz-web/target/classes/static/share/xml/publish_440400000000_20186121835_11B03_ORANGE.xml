@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ZHwarning>
+    <System>
+        <SysAuthor>ZH</SysAuthor>
+        <SysPubdate>2018-06-12 21:52</SysPubdate>
+    </System>
+    <Custom>
+        <Warning>
+            <Status>1</Status>
+            <Publish>1</Publish>
+            <ValidFor>
+                <year>2018</year>
+                <month>6</month>
+                <day>12</day>
+                <hour>18</hour>
+                <minute>35</minute>
+            </ValidFor>
+            <MsgType>2</MsgType>
+            <MsgCode>20931</MsgCode>
+            <Message>�麣�������2018��6��12��18ʱ35�ַ�����ɫ����Ԥ���źš�</Message>
+        </Warning>
+    </Custom>
+</ZHwarning>

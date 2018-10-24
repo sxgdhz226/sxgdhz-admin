@@ -1,0 +1,155 @@
+@charset "utf-8";
+html,
+body,
+div,
+p,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+select,
+button,
+iframe,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0 none;
+  vertical-align: top;
+}
+ul,
+li {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 14px;
+  font-weight: 100;
+}
+body {
+  font-family: "微软雅黑", 'Microsoft Yahei', 'simsun', 'arial', 'tahoma';
+}
+button {
+  cursor: pointer;
+}
+body {
+  color: #363636;
+  line-height: 1.2;
+}
+a,
+a:link {
+  color: #222;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+.clear {
+  display: block!important;
+  float: none!important;
+  clear: both;
+  overflow: hidden;
+  width: auto!important;
+  height: 0!important;
+  margin: 0 auto!important;
+  padding: 0!important;
+  font-size: 0;
+  line-height: 0;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.dis_ {
+  display: block;
+}
+body:before {
+  content: ' ';
+  position: fixed;
+  z-index: -2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("../img/bg.jpg") center 0 no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1920px) {
+  body:before {
+    content: ' ';
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("../img/bg.jpg") center 0 no-repeat;
+    background-size: cover;
+  }
+}
+.content h1 {
+  text-align: center;
+  padding-top: 11.5%;
+}
+.content h1 img {
+  width: 69%;
+}
+.content ul {
+  padding-top: 3.5%;
+  width: 75%;
+  margin: 0 auto;
+}
+.content ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.content ul li img {
+  width: 52%;
+  cursor: pointer;
+  -webkit-transition: width .3s ease;
+  -moz-transition: width .3s ease;
+  -ms-transition: width .3s ease;
+  -o-transition: width .3s ease;
+  transition: width .3s ease;
+}
+.content ul li img:hover {
+  width: 57%;
+}
+.content ul li p {
+  color: #FFFFFF;
+  font-weight: 600;
+  -webkit-text-shadow: #01196f 2px 0 0, #01196f 0 2px 0, #01196f -2px 0 0, #01196f 0 -2px 0;
+  -moz-text-shadow: #01196f 2px 0 0, #01196f 0 2px 0, #01196f -2px 0 0, #01196f 0 -2px 0;
+  text-shadow: #01196f 2px 0 0, #01196f 0 2px 0, #01196f -2px 0 0, #01196f 0 -2px 0;
+}
+.content ul li p:first-of-type {
+  font-size: 1vw;
+  margin-top: -15%;
+}
+.content ul li p:last-of-type {
+  font-size: 1.2vw;
+  margin-top: 2%;
+}

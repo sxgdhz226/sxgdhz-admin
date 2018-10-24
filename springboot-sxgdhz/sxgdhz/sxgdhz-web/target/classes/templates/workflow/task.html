@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<meta charset="utf-8">
+<head th:include="include :: header"></head>
+<body class="gray-bg">
+
+<div class="container-div">
+	<div class="row">
+
+		<div class="col-sm-12 select-table table-striped">
+			<table id="bootstrap-table" data-mobile-responsive="true"></table>
+		</div>
+	</div>
+</div>
+<div th:include="include :: footer"></div>
+<script th:inline="javascript">
+    var editFlag = [[${@permission.hasPermi('system:config:edit')}]];
+    var removeFlag = [[${@permission.hasPermi('system:config:remove')}]];
+    var datas = [[${@dict.getType('sys_yes_no')}]];
+    var prefix = ctx + "activiti"
+
+    $(function() {
+        var options = {
+            url: prefix + "/listTask",
+            createUrl: prefix + "/add",
+            updateUrl: prefix + "/edit/{id}",
+            removeUrl: prefix + "/leaveRomove",
+            sortName: "createTime",
+            sortOrder: "desc",
+            modalName: "参数",
+            search: false,
+            showExport: false,
+            columns: [{
+                checkbox: true
+            },
+                {
+                    field: 'id',
+                    title: '任务ID',
+                    hidden: true
+
+                },
+                {
+                    field: 'name',
+                    title: '任务名称'
+                },
+                {
+                    field: 'createTime',
+                    title: '创建时间'
+                },
+                {
+                    field: 'assignee',
+                    title: '办理人'
+                },
+                {
+                    title: '操作',
+                    align: 'center',
+                    formatter: function(value, row, index) {
+                        var actions = [];
+                        actions.push('<a class="btn btn-success btn-xs ' + editFlag + '" href="viewTaskForm?taskId='+row.id+'" onclick=""><i class="fa fa-edit"></i>办理任务</a> ');
+                        actions.push('<a class="btn btn-danger btn-xs ' + removeFlag + '" href="#" onclick="$.operate.remove(\'' + row.id + '\')"><i class="fa fa-remove"></i>查看当前流程图</a>');
+                        return actions.join('');
+                    }
+                }]
+        };
+        $.table.init(options);
+    });
+    
+    function viewTaskForm(taskId) {
+        var formdata = new FormData();
+        formdata.append("taskId",taskId);
+        $.ajax({
+            url: ctx + "activiti/viewTaskForm",
+            data: formdata,
+            type: "post",
+            processData: false,
+            contentType: false,
+            success: function(result) {
+                $.operate.saveSuccess(result);
+            }
+        })
+    }
+
+</script>
+</body>
+</html>
