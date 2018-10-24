@@ -28,6 +28,27 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- SpringBoot 核心包 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <!--
+             <exclusions>
+                <exclusion>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                    <groupId>org.springframework.boot</groupId>
+                </exclusion>
+            </exclusions>
+             -->
+        </dependency>
+
+        <!-- SpringBoot 测试 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
         <!-- Dubbo -->
         <dependency>
             <groupId>com.alibaba</groupId>
