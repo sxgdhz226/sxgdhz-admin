@@ -1,4 +1,4 @@
-package com.ruoyi.framework.config.crawler.model;
+package com.ruoyi.api.entity;
 
 public class MitamaModel {
 

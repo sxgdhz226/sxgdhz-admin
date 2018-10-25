@@ -1,9 +1,9 @@
-package com.ruoyi.framework.config.crawler.service.impl;
+package com.ruoyi.service.user.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.ruoyi.framework.config.crawler.dao.ShikigamaDao;
-import com.ruoyi.framework.config.crawler.model.ShikigamiModel;
-import com.ruoyi.framework.config.crawler.service.ShikigamaService;
+import com.ruoyi.api.entity.ShikigamiModel;
+import com.ruoyi.api.service.ShikigamaService;
+import com.ruoyi.service.user.dao.ShikigamaDao;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

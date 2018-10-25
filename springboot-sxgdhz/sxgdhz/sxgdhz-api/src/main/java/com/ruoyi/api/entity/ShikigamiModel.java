@@ -1,6 +1,6 @@
-package com.ruoyi.framework.config.crawler.model;
+package com.ruoyi.api.entity;
 
-import com.ruoyi.framework.model.BaseModel;
+import com.ruoyi.common.model.BaseModel;
 import lombok.*;
 
 import javax.persistence.Entity;
@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @EqualsAndHashCode(callSuper = false)
 @AllArgsConstructor
 @NoArgsConstructor
-public class ShikigamiModel extends BaseModel{
+public class ShikigamiModel extends BaseModel {
 
     /**
      * 名字

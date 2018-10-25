@@ -1,8 +1,8 @@
 package com.ruoyi.framework.config.crawler.schedule;
 
+import com.ruoyi.api.entity.ShikigamiModel;
+import com.ruoyi.api.service.ShikigamaService;
 import com.ruoyi.framework.config.crawler.util.OnnmyoujiSpider;
-import com.ruoyi.framework.config.crawler.model.ShikigamiModel;
-import com.ruoyi.framework.config.crawler.service.ShikigamaService;
 import com.ruoyi.framework.config.crawler.util.DownUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

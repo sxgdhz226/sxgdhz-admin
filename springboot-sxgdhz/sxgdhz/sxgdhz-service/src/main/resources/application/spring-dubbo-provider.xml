@@ -15,36 +15,7 @@
         <dubbo:protocol name="${dubbo.rpc.protecol}" port="${dubbo.protocol.port}" codec="spring" />
     -->
     <!-- 基础服务 -->
-    <dubbo:service interface="pers.zb.center.service.user.api.basic.BasicConfigService" ref="basicConfigServiceImpl"  />
-    <dubbo:service interface="pers.zb.center.service.user.api.basic.BasicMessageWallService" ref="basicMessageWallServiceImpl"  />
-
-    <!-- 基础服务：User、Role、Permission、UserRole、RolePermission -->
-    <dubbo:service interface="pers.zb.center.service.user.api.user.UserService" ref="userServiceImpl"  />
-    <dubbo:service interface="pers.zb.center.service.user.api.sys.MenuService" ref="menuServiceImpl"  />
-    <dubbo:service interface="pers.zb.center.service.user.api.sys.RoleService" ref="roleServiceImpl"  />
-    <dubbo:service interface="pers.zb.center.service.user.api.sys.UserRoleService" ref="userRoleServiceImpl"  />
-    <dubbo:service interface="pers.zb.center.service.user.api.sys.PermissionService" ref="permissionServiceImpl"  />
-    <dubbo:service interface="pers.zb.center.service.user.api.sys.RolePermissionService" ref="rolePermissionServiceImpl"  />
-    <dubbo:service interface="pers.zb.center.service.user.api.sys.AppService" ref="appServiceImpl"  />
-    <dubbo:service interface="pers.zb.center.service.user.api.sys.ReUserAppService" ref="reUserAppServiceImpl"  />
-    <dubbo:service interface="pers.zb.center.service.user.api.monitor.MonitoLogService" ref="monitorServiceImpl"  />
-
-    <!-- 资源下载相关服务 -->
-    <dubbo:service interface="pers.zb.center.service.user.api.basic.BasicSourceDownloadService" ref="basicSourceDownloadServiceImpl"  />
-
-    <!-- 日志记录相关服务 -->
-    <dubbo:service interface="pers.zb.center.service.user.api.record.VisitRecordService" ref="visitRecordServiceImpl"  />
-
-    <!-- mongodb -->
-    <dubbo:service interface="pers.zb.center.service.user.api.mongodb.IUserService" ref="userService"  />
-
-    <dubbo:service interface="pers.zb.center.service.user.api.activemq.UserQueueMessageService" ref="userQueueMessageServiceImpl"  />
-
-    <dubbo:service interface="pers.zb.center.service.user.api.chat.IChatService" ref="IChatService"  />
-    <dubbo:service interface="pers.zb.center.service.user.api.sys.IEmployeeService" ref="IEmployeeService"  />
-    <dubbo:service interface="pers.zb.center.service.user.api.sys.IOrgService" ref="IOrgService"  />
-
-    <dubbo:service interface="pers.zb.center.service.user.api.springdatajpa.ISysWarnService" ref="SysWarnServiceImpl"  />
+    <dubbo:service interface="com.ruoyi.api.service.ShikigamaService" ref="ShikigamaServiceImpl"  />
 
 
 </beans>

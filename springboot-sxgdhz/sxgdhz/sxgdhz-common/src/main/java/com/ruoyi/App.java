@@ -1,4 +1,4 @@
-package com.RuoYi;
+package com.ruoyi;
 
 /**
  * Hello world!

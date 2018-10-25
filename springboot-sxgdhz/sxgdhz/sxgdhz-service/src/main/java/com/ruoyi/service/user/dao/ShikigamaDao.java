@@ -1,6 +1,6 @@
-package com.ruoyi.framework.config.crawler.dao;
+package com.ruoyi.service.user.dao;
 
-import com.ruoyi.framework.config.crawler.model.ShikigamiModel;
+import com.ruoyi.api.entity.ShikigamiModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -169,3 +169,11 @@ gen:
   # 表前缀(类名不会包含表前缀)
   tablePrefix: sys_
 
+dubbo:
+    application:
+      name: sxgdhz-web  # dubbo应用名称
+    registry:
+      address: zookeeper://192.168.19.129:2181?backup=192.168.19.129:2182,192.168.19.129:2183
+      check: true # 项目启动时，检查注册中心是否可用（是否启动了zookeeper注册中心）
+    consumer:
+      check: false  # 项目启动时，检查service服务是否可以订阅和调用

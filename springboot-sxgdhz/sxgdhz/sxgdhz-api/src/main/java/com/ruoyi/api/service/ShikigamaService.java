@@ -1,6 +1,7 @@
-package com.ruoyi.framework.config.crawler.service;
+package com.ruoyi.api.service;
 
-import com.ruoyi.framework.config.crawler.model.ShikigamiModel;
+
+import com.ruoyi.api.entity.ShikigamiModel;
 
 import java.util.List;
 

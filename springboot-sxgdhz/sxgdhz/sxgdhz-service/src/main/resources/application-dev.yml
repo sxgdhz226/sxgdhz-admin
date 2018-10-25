@@ -3,7 +3,7 @@ spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
         driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://127.0.0.1:3306/zb_server?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+        url: jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true
         username: root
         password:
         maxWait: 60000

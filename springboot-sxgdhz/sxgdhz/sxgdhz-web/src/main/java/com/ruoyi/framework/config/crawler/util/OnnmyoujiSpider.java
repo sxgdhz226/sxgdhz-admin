@@ -1,7 +1,6 @@
 package com.ruoyi.framework.config.crawler.util;
 
-import com.ruoyi.framework.config.crawler.model.ShikigamiModel;
-import com.ruoyi.framework.config.crawler.util.HttpUtil;
+import com.ruoyi.api.entity.ShikigamiModel;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

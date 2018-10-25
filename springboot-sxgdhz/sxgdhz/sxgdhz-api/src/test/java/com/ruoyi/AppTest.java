@@ -1,4 +1,4 @@
-package com.RuoYi;
+package com.ruoyi;
 
 import static org.junit.Assert.assertTrue;
 
