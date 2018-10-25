@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="pers.zb.center.service.user.dao.sys.RoleMapper">
+    
+    <resultMap id="role_map" type="SysRole" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <id column="app_id" property="appId" jdbcType="INTEGER" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="status" property="status" jdbcType="INTEGER" />
+        <result column="description" property="description" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+   </resultMap>
+
+   
+    <!-- 根据用户名获取角色列表 -->
+	<select id="getUserRoles" resultType="SysRole">
+		SELECT r.`id`,r.`app_id`,r.`name`,r.`status`,r.`create_time`,r.`description`,r.`update_time` 
+        FROM `sys_user_role` ur,`sys_user` u,`sys_role` r 
+        WHERE u.`id` = ur.`user_id` AND r.`id` = ur.`role_id` AND u.`user_name` = #{userName}
+	</select>
+
+    <!-- 分页获取角色列表 -->
+    <select id="getList" resultType="pers.zb.center.service.user.vo.sys.RoleVo">
+        SELECT r.id, r.app_id appId, r.name, r.status, r.description, r.create_time createTime, r.update_time updateTime,sa.`name` appName,sa.`status` appStatus,sa.`icon` appIcon,sa.`code` appCode
+        FROM sys_role r
+        LEFT JOIN sys_app sa ON sa.`id` = r.`app_id`
+        
+        <where>
+            <if test="role.status != null">
+                AND r.`status` = #{role.status}
+            </if>
+            <if test="role.name != null and role.name != ''">
+                AND r.`name` LIKE '%${role.name}%'
+            </if>
+            <if test="role.appId != null and role.appId != ''">
+                AND r.`app_id` = #{role.appId}
+            </if>
+        </where>
+        
+        <if test="pager.sort!=null">
+            order by r.${pager.sort} ${pager.order}
+        </if>
+    </select>
+    
+</mapper>

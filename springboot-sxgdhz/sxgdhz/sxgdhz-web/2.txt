@@ -1,0 +1,33 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.ruoyi:sxgdhz-web:war:2.4.0
+[WARNING] 'dependencies.dependency.systemPath' for net.sf.json-lib:json-lib:jar should not point at files within the project directory, ${basedir}/src/main/lib/json-lib.jar will be unresolvable by dependent projects @ line 270, column 16
+[WARNING] 'dependencies.dependency.systemPath' for jcifs:jcifs:jar should not point at files within the project directory, ${basedir}/src/main/lib/jcifs-1.3.15.jar will be unresolvable by dependent projects @ line 278, column 16
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: dom4j:dom4j:jar -> duplicate declaration of version 1.6.1 @ line 281, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building RuoYi 2.4.0
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for com.ruoyi.api:sxgdhz-api:jar:1.0-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.boot:spring-boot-starter-data-solr:jar:2.1.1.RELEASE is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ sxgdhz-web ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.270 s
+[INFO] Finished at: 2018-10-25T19:44:13+08:00
+[INFO] Final Memory: 38M/356M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-dependency-plugin:3.0.2:tree (default-cli) on project sxgdhz-web: Cannot build project dependency graph: Could not resolve nor collect following dependencies: [com.ruoyi.api:sxgdhz-api:jar:1.0-SNAPSHOT (compile), org.springframework.boot:spring-boot-starter-data-solr:jar:2.1.1.RELEASE (compile)]: Could not resolve dependencies for project com.ruoyi:sxgdhz-web:war:2.4.0: The following artifacts could not be resolved: com.ruoyi.api:sxgdhz-api:jar:1.0-SNAPSHOT, org.springframework.boot:spring-boot-starter-data-solr:jar:2.1.1.RELEASE: Failure to find com.ruoyi.api:sxgdhz-api:jar:1.0-SNAPSHOT in http://maven.aliyun.com/nexus/content/groups/public/ was cached in the local repository, resolution will not be reattempted until the update interval of public has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,5 +1,6 @@
 package com.ruoyi.framework.config.crawler.schedule;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.ruoyi.api.entity.ShikigamiModel;
 import com.ruoyi.api.service.ShikigamaService;
 import com.ruoyi.framework.config.crawler.util.OnnmyoujiSpider;
@@ -19,13 +20,8 @@ public class ScheduledTasks {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ScheduledTasks.class);
 
-    private final ShikigamaService shikigamaService;
-
     @Autowired
-    public ScheduledTasks(ShikigamaService shikigamaService) {
-        this.shikigamaService = shikigamaService;
-    }
-
+    private ShikigamaService shikigamaService;
 
     @Scheduled(fixedRate = 1000 * 30)
     public void reportCurrentTime() {

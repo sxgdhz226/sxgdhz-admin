@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="pers.zb.center.service.user.dao.record.VisitRecordMapper">
+
+    <resultMap id="visitRecord_Map" type="VisitRecord" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="cli_ip" property="cliIp" jdbcType="VARCHAR" />
+        <result column="cli_sys_version" property="cliSysVersion" jdbcType="VARCHAR" />
+        <result column="cli_sys_arch" property="cliSysArch" jdbcType="VARCHAR" />
+        <result column="cli_sys_name" property="cliSysName" jdbcType="VARCHAR" />
+        <result column="cli_sys_agent" property="cliSysAgent" jdbcType="LONGVARCHAR" />
+        <result column="cli_req_url" property="cliReqUrl" jdbcType="VARCHAR" />
+        <result column="cli_req_uri" property="cliReqUri" jdbcType="VARCHAR" />
+        <result column="cli_req_method" property="cliReqMethod" jdbcType="VARCHAR" />
+        <result column="local_addr" property="localAddr" jdbcType="VARCHAR" />
+        <result column="local_name" property="localName" jdbcType="VARCHAR" />
+        <result column="req_session_id" property="reqSessionId" jdbcType="VARCHAR" />
+        <result column="login_user_name" property="loginUserName" jdbcType="VARCHAR" />
+         <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    </resultMap>
+    
+    
+    <!-- 根据用户名获取上次登录信息 -->
+    <select id="getLastLogin" resultMap="visitRecord_Map">
+        SELECT vr.`login_user_name` loginUserName,vr.`create_time` createTime,vr.`cli_ip` cliIp
+        FROM visit_record vr
+        <where>
+            <if test="userName != null">
+                vr.`login_user_name` = #{userName}
+            </if>
+        </where>
+        ORDER BY vr.`create_time` DESC LIMIT 1
+    </select>
+    
+    <!-- 获取用户某日登录次数  -->
+    <select id="getCurUserDayLoginNum" resultType="java.lang.Integer">
+        SELECT COUNT(1) loginNum FROM visit_record vr
+        <where>
+            <if test="userName != null">
+                vr.`login_user_name` = #{userName}
+            </if>
+            <if test="day != null">
+                AND DATE_FORMAT(vr.`create_time`,'%Y-%m-%d') = #{day}
+            </if>
+        </where>
+    </select>
+
+    <!--
+        统计对于日期范围内的系统请求访问统计数据
+        dateVal：日期，yyyy-MM-dd
+        hourVal：日期对应的hour
+        reqNum：对应hour一个小时里面的请求数量
+        clientNum：对应hour一个小时里面的客户端数量（根据IP分组统计）
+    -->
+    <select id="accessStatistics" resultType="pers.zb.center.service.user.vo.record.AccessStatisticsVo">
+        SELECT DATE_FORMAT(create_time,'%Y-%m-%d') dateVal,HOUR(create_time) AS hourVal, COUNT(create_time) AS reqNum,COUNT(DISTINCT(cli_ip)) clientNum
+        FROM visit_record
+        <if test="dateList != null">
+            <where>
+                DATE_FORMAT(create_time,'%Y-%m-%d') IN
+                <foreach collection="dateList" index="index" item="date" open="(" separator="," close=")">
+                    #{date}
+                </foreach>
+            </where>
+        </if>
+        GROUP BY
+            create_time,
+            dateVal,
+            hourVal
+        ORDER BY
+            create_time,
+            dateVal,
+            hourVal
+    </select>
+</mapper>

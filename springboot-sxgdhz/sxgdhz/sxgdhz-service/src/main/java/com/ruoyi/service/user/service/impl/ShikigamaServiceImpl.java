@@ -6,11 +6,16 @@ import com.ruoyi.api.service.ShikigamaService;
 import com.ruoyi.service.user.dao.ShikigamaDao;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
 import java.util.List;
 
-@Service
+/**
+ * @Service 注意是导入dubbo的注解
+ */
+@Service("shikigamaServiceImpl")
 public class ShikigamaServiceImpl implements ShikigamaService {
     private static final Logger LOGGER = org.slf4j.LoggerFactory.getLogger(ShikigamaServiceImpl.class);
 

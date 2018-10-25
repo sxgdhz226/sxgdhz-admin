@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="pers.zb.center.service.user.dao.sys.AppMapper">
+	
+	<resultMap id="sysApp_Map" type="SysApp" >
+	    <id column="id" property="id" jdbcType="BIGINT" />
+	    <result column="name" property="name" jdbcType="VARCHAR" />
+	    <result column="status" property="status" jdbcType="TINYINT" />
+	    <result column="sort" property="sort" jdbcType="INTEGER" />
+	    <result column="code" property="code" jdbcType="VARCHAR" />
+	    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+	    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+		<result column="icon" property="icon" jdbcType="VARCHAR" />
+		<result column="online" property="online" jdbcType="TINYINT" />
+    </resultMap>
+
+	<!-- 根据应用名称获取应用 -->
+	<select id="getAppByName" resultMap="sysApp_Map">
+		SELECT a.`id`,a.`name`,a.`sort`,a.`status`,a.`code`,a.`icon`,a.online,a.`create_time` createTime,a.`update_time` updateTime FROM sys_app a
+		<where>
+			<if test="name != null">
+			    a.`name` = #{name}
+			</if>
+		</where>
+	</select>
+	
+	<!-- 根据应用编码获取应用 -->
+	<select id="getAppByCode" resultMap="sysApp_Map">
+		SELECT a.`id`,a.`name`,a.`sort`,a.`status`,a.`code`,a.`icon`,a.online,a.`create_time` createTime,a.`update_time` updateTime FROM sys_app a
+		<where>
+			<if test="code != null">
+			    a.`code` = #{code}
+			</if>
+		</where>
+	</select>
+	
+	
+	<!-- 获取应用列表 -->
+    <select id="getAppList"  resultType="pers.zb.center.service.user.vo.sys.AppVo">
+        SELECT a.`id`,a.`name`,a.`sort`,a.`status`,a.`code`,a.`icon`,a.online,a.`create_time` createTime,a.`update_time` updateTime FROM sys_app a
+        <where>
+            <if test="appQo.name != null">
+                AND a.`name` LIKE '%${appQo.name}%'
+            </if>
+            <if test="appQo.status!=null">
+                AND a.`status` = #{appQo.status}
+            </if>
+            <if test="appQo.appId!=null">
+                AND a.`id` = #{appQo.appId}
+            </if>
+        </where>
+        <if test="pager.sort!=null">
+            order by a.${pager.sort} ${pager.order}
+        </if>
+        
+        <!-- 默认为sort的升序排序 -->
+        <if test="pager.sort==null">
+            order by a.sort asc
+        </if>
+    </select>
+</mapper>
