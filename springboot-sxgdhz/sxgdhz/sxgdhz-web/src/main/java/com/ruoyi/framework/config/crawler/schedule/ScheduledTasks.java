@@ -1,6 +1,5 @@
 package com.ruoyi.framework.config.crawler.schedule;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.ruoyi.api.entity.ShikigamiModel;
 import com.ruoyi.api.service.ShikigamaService;
 import com.ruoyi.framework.config.crawler.util.OnnmyoujiSpider;

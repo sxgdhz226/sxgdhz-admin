@@ -22,10 +22,10 @@
      -->
 
 	<dubbo:application name="${spring.dubbo.application.name}" />
-	<dubbo:registry address="${spring.dubbo.registry.address}" timeout="${dubbo.provider.timeout}" />
+	<dubbo:registry address="${spring.dubbo.registry.address}" timeout="${dubbo.timeout}" />
 
 	<!-- 基础服务 -->
-    <dubbo:reference interface="com.ruoyi.api.service.ShikigamaService" id="shikigamaService"/>
+    <dubbo:reference interface="com.ruoyi.api.service.ShikigamaService" id="shikigamaService" check="false"/>
 
 
 </beans>
