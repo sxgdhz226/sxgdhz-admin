@@ -1,1 +1,4 @@
+com\ruoyi\common\intercepter\FeignIntercepter.class
+com\ruoyi\common\contants\CommonConstants.class
+com\ruoyi\common\context\FilterContextHandler.class
 com\ruoyi\common\model\BaseModel.class

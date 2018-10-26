@@ -11,5 +11,15 @@
 
     <artifactId>sxgdhz-cloud-ribbon</artifactId>
 
-
+    <!--注意添加这个spring.io，maven2仓库没有-->
+    <repositories>
+        <repository>
+            <id>spring-snapshots</id>
+            <name>Spring Snapshots</name>
+            <url>https://repo.spring.io/libs-snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
