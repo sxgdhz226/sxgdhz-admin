@@ -44,8 +44,6 @@
         	<#if quickList_size!=0>
 			<span>&nbsp;快速通道：</span>
 			<span style='color:#00FF00'>  
-			<a target="_blank"  href="<c:url value='http://www.zhmb.gov.cn/jeecms/web/content?id=449'/>" >巡查公告</a> |
-			<a target="_blank"  href="<c:url value='http://www.zhmb.gov.cn/jeecms/web/content?id=450'/>" >市委第一巡察组进驻市气象局开展巡察工作</a> |
 				<#list quickList as obj>
 					
 					<a target="_blank"  href="<c:url value='${obj.href}'/>" >${obj.name}</a> 

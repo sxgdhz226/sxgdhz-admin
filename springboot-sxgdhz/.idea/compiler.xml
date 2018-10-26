@@ -8,6 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="RuoYi" />
         <module name="sxgdhz-api" />
+        <module name="sxgdhz-cloud-common" />
+        <module name="sxgdhz-cloud-hystrix" />
+        <module name="sxgdhz-cloud-ribbon" />
+        <module name="sxgdhz-cloud-server" />
+        <module name="sxgdhz-cloud-zuul" />
         <module name="sxgdhz-common" />
         <module name="sxgdhz-service" />
         <module name="sxgdhz-web" />
@@ -16,6 +21,11 @@
     <bytecodeTargetLevel target="1.8">
       <module name="sxgdhz" target="1.8" />
       <module name="sxgdhz-api" target="1.8" />
+      <module name="sxgdhz-cloud-common" target="1.8" />
+      <module name="sxgdhz-cloud-hystrix" target="1.8" />
+      <module name="sxgdhz-cloud-ribbon" target="1.8" />
+      <module name="sxgdhz-cloud-server" target="1.8" />
+      <module name="sxgdhz-cloud-zuul" target="1.8" />
       <module name="sxgdhz-common" target="1.8" />
       <module name="sxgdhz-service" target="1.8" />
       <module name="sxgdhz-web" target="1.8" />

@@ -3,40 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1c46881c-307a-4dd6-a78c-4c2ecc38c985" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/sxgdhz_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/sxgdhz_service_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/logs/log4jmonitor/debug.log" afterPath="$PROJECT_DIR$/logs/log4jmonitor/debug.log" />
-      <change beforePath="$PROJECT_DIR$/logs/log4jmonitor/info.log" afterPath="$PROJECT_DIR$/logs/log4jmonitor/info.log" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/pom.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/src/main/java/com/ruoyi/ApiController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/sxgdhz-api.iml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/sxgdhz-api.iml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/ApiController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/entity/ShikigamiModel.class" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/entity/ShikigamiModel.class" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/service/ShikigamaService.class" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/service/ShikigamaService.class" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/surefire-reports/TEST-com.ruoyi.AppTest.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/surefire-reports/TEST-com.ruoyi.AppTest.xml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/surefire-reports/com.ruoyi.AppTest.txt" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/surefire-reports/com.ruoyi.AppTest.txt" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/sxgdhz-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/sxgdhz-api-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/src/main/java/com/ruoyi/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/classes/com/ruoyi/App.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/surefire-reports/TEST-com.ruoyi.AppTest.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/surefire-reports/TEST-com.ruoyi.AppTest.xml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/surefire-reports/com.ruoyi.AppTest.txt" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/surefire-reports/com.ruoyi.AppTest.txt" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/sxgdhz-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/sxgdhz-common-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/properties/dubbo.properties" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/properties/dubbo.properties" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/pom.xml" afterPath="$PROJECT_DIR$/sxgdhz/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/pom.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application/spring-dubbo-provider.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application/spring-dubbo-provider.xml" />
       <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/sxgdhz-service.iml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/sxgdhz-service.iml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/config/crawler/schedule/ScheduledTasks.java" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/config/crawler/schedule/ScheduledTasks.java" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/config/properties/PropertiesConfig.java" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/config/properties/PropertiesConfig.java" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/resources/application/spring-consumer.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/resources/application/spring-consumer.xml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/resources/properties/dubbo.properties" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/resources/properties/dubbo.properties" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/target/classes/application/spring-consumer.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/target/classes/application/spring-consumer.xml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/target/classes/com/ruoyi/framework/config/crawler/schedule/ScheduledTasks.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/target/classes/com/ruoyi/framework/config/crawler/util/OnnmyoujiSpider.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/target/classes/properties/dubbo.properties" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/target/classes/properties/dubbo.properties" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/resources/templates/default/head_tmp.ftl" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/resources/templates/default/head_tmp.ftl" />
     </list>
     <ignored path="$PROJECT_DIR$/sxgdhz/target/" />
     <ignored path="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/" />
@@ -44,6 +19,11 @@
     <ignored path="$PROJECT_DIR$/sxgdhz/sxgdhz-web/target/" />
     <ignored path="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/" />
     <ignored path="$PROJECT_DIR$/sxgdhz/sxgdhz-service/target/" />
+    <ignored path="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/target/" />
+    <ignored path="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,26 +45,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RuoYiApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/RuoYiApplication.java">
+      <file leaf-file-name="ClouddoServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/src/main/java/com/ruoyi/cloud/server/ClouddoServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="32" column="68" lean-forward="true" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+            <state relative-caret-position="120">
+              <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding>
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScheduledTasks.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/config/crawler/schedule/ScheduledTasks.java">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/java/com/ruoyi/cloud/zuul/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="96">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="30" column="21" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="30" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClouddoZuulApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/java/com/ruoyi/cloud/zuul/ClouddoZuulApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/java/com/ruoyi/cloud/zuul/service/MenuService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1748#1749#0" expanded="true" />
-                <element signature="e#1803#1804#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeignIntercepter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-common/src/main/java/com/ruoyi/common/intercepter/FeignIntercepter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccessFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/java/com/ruoyi/cloud/zuul/filter/AccessFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,6 +184,7 @@
       <find>ComponentScan</find>
       <find>springfox-spring-web</find>
       <find>dom4j</find>
+      <find>spring-cloud.version</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,11 +211,8 @@
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-api/src/main/java/com/ruoyi/api/entity/ShikigamiModel.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/sxgdhz/pom.xml" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/UserApplication.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/user/config/properties/PropertiesConfig.java" />
-        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application/spring-dubbo-provider.xml" />
-        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/pom.xml" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/user/service/impl/ShikigamaServiceImpl.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/RuoYiApplication.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/resources/properties/dubbo.properties" />
@@ -164,6 +223,18 @@
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/config/crawler/schedule/ScheduledTasks.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/config/crawler/util/OnnmyoujiSpider.java" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/pom.xml" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application/spring-dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/properties/zfbinfo.properties" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/resources/templates/default/head_tmp.ftl" />
+        <option value="$PROJECT_DIR$/sxgdhz/pom.xml" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/src/main/java/com/ruoyi/cloud/server/ClouddoServerApplication.java" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/pom.xml" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/java/com/ruoyi/cloud/zuul/filter/AccessFilter.java" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/java/com/ruoyi/cloud/zuul/ClouddoZuulApplication.java" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/java/com/ruoyi/cloud/zuul/service/MenuService.java" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-common/src/main/java/com/ruoyi/common/intercepter/FeignIntercepter.java" />
       </list>
     </option>
   </component>
@@ -228,14 +299,16 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -254,93 +327,70 @@
             <path>
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="intercepter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,7 +404,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../clouddo/clouddo" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -370,16 +420,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ruoyi.service.user.config.properties" />
-      <recent name="com.ruoyi.common.model" />
-      <recent name="com.RuoYi.api.service" />
+      <recent name="com.ruoyi.common.intercepter" />
+      <recent name="com.ruoyi.cloud.zuul.service" />
+      <recent name="com.ruoyi.cloud.zuul.filter" />
+      <recent name="com.ruoyi.cloud.zuul" />
+      <recent name="com.ruoyi.cloud.server" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-cloud-zuul\src\main\resources" />
+      <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-cloud-server\src\main\resources" />
       <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-web\src\main" />
       <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-web\src\main\resources\properties" />
       <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-web\src\main\resources" />
-      <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-service\src\main" />
-      <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-service\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -624,15 +676,16 @@
       <workItem from="1540430089428" duration="11368000" />
       <workItem from="1540447904194" duration="109000" />
       <workItem from="1540455450465" duration="11476000" />
-      <workItem from="1540515186055" duration="4068000" />
+      <workItem from="1540515186055" duration="10062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32157000" />
+    <option name="totallyTimeSpent" value="38151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -645,17 +698,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10532276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4824462" sideWeight="0.49785408" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06795017" sideWeight="0.49785408" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6342016" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5560589" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4733862" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15402038" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23015021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21727468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -690,107 +743,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/web/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/web/repository/SeckillRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service-api/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/mybatis/mapper/sys/AppMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/maven/mavenRespository/com/alibaba/dubbo/2.4.9/dubbo-2.4.9.jar!/META-INF/dubbo.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="412" column="21" lean-forward="false" selection-start-line="412" selection-start-column="21" selection-end-line="412" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/sxgdhz-web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/activiti/service/impl/WorkflowServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2464">
-          <caret line="151" column="32" lean-forward="false" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/activiti/controller/WorkFlowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="82" column="25" lean-forward="false" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/web/service/impl/MonitorServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/web/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/web/repository/SeckillRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -861,22 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="137" column="16" lean-forward="false" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -956,14 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application/spring-dubbo-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-api/src/main/java/com/ruoyi/ApiController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -976,14 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1036,6 +956,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/config/crawler/schedule/ScheduledTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1748#1749#0" expanded="false" />
+            <element signature="e#1803#1804#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/RuoYiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1044,15 +976,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/config/crawler/schedule/ScheduledTasks.java">
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/resources/templates/default/head_tmp.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="384">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/properties/zfbinfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application/spring-dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="132" column="44" lean-forward="false" selection-start-line="132" selection-start-column="44" selection-end-line="132" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/src/main/java/com/ruoyi/cloud/server/ClouddoServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/java/com/ruoyi/cloud/zuul/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/java/com/ruoyi/cloud/zuul/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/java/com/ruoyi/cloud/zuul/ClouddoZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/src/main/java/com/ruoyi/cloud/zuul/service/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-common/src/main/java/com/ruoyi/common/intercepter/FeignIntercepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

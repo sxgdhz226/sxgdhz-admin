@@ -4,6 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz.iml" />
       <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz-api/sxgdhz-api.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/sxgdhz-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-common/sxgdhz-cloud-common.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-common/sxgdhz-cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-hystrix/sxgdhz-cloud-hystrix.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-hystrix/sxgdhz-cloud-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-ribbon/sxgdhz-cloud-ribbon.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-ribbon/sxgdhz-cloud-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/sxgdhz-cloud-server.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/sxgdhz-cloud-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/sxgdhz-cloud-zuul.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/sxgdhz-cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz-common/sxgdhz-common.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/sxgdhz-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/sxgdhz-service.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/sxgdhz-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/sxgdhz-web.iml" filepath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/sxgdhz-web.iml" />

@@ -40,6 +40,11 @@
     <module>sxgdhz-api</module>
     <module>sxgdhz-common</module>
     <module>sxgdhz-service</module>
+    <module>sxgdhz-cloud-server</module>
+    <module>sxgdhz-cloud-zuul</module>
+    <module>sxgdhz-cloud-ribbon</module>
+    <module>sxgdhz-cloud-hystrix</module>
+    <module>sxgdhz-cloud-common</module>
   </modules>
 
   <dependencies>

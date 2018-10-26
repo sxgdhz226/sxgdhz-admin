@@ -132,5 +132,7 @@
     <orderEntry type="library" name="Maven: com.sun.jmx:jmxri:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: jline:jline:0.9.94" level="project" />
     <orderEntry type="library" name="Maven: com.github.sgroschupf:zkclient:0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.acts:alipay-trade-sdk:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.acts:alipay-sdk-java:1.0.0" level="project" />
   </component>
 </module>

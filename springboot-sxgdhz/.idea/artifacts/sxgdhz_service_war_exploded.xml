@@ -88,6 +88,8 @@
           <element id="library" level="project" name="Maven: com.sun.jmx:jmxri:1.2.1" />
           <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
           <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
+          <element id="library" level="project" name="Maven: com.acts:alipay-trade-sdk:1.0.0" />
+          <element id="library" level="project" name="Maven: com.acts:alipay-sdk-java:1.0.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
