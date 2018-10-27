@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd 
+						http://code.alibabatech.com/schema/dubbo 
+						http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+	<!--
+        【说明】：项目是基于springboot的，所以下面注释的部分配置，已经在application-dev(pro).yml中配置了。 项目启动会自动注入配置；
+                  对于 <dubbo:reference> 节点里面的一些参数，比如timeout、check等，也都无需在这xml中硬编码配置了，都在application-dev(pro).yml中配置好了。springboot还是很方便的
+        <dubbo:application name="${dubbo.application.name}" />
+        <dubbo:registry address="${dubbo.registry.address}" timeout="${dubbo.timeout}" />
+    -->
+
+    <!--
+        ·配置说明：
+        ·<dubbo:reference>标签中的id，要与接口的名称一致
+        ·<dubbo:reference>标签中的interface，是接口的完全包类名。无论是服务提供者还是服务调用者，标签中都会有interface属性，所以，接口包路径要一致。
+        ·   这里也说明了为什么要将接口单独抽离成一个jar模块，因为dubbo是根据接口包类名来寻找接口服务方的。并且，接口的方法参数、参数类型都要一致。
+     -->
+
+	<dubbo:application name="${spring.dubbo.application.name}" />
+	<dubbo:registry address="${spring.dubbo.registry.address}" timeout="${dubbo.timeout}" />
+
+	<!-- 基础服务 -->
+    <dubbo:reference interface="com.ruoyi.api.service.ShikigamaService" id="shikigamaService" check="false"/>
+
+
+</beans>

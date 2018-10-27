@@ -102,15 +102,12 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <!-- Dubbo -->
-        <!-- dubbo -->
-        <!--<dependency>-->
-            <!--<groupId>com.gitee.reger</groupId>-->
-            <!--<artifactId>spring-boot-starter-dubbo</artifactId>-->
-            <!--&lt;!&ndash; 这里我没有使用 ${spring.boot.dubbo.version} 引用全局的版本号，目的就是尽量避免影响其他模块的引用；具体这么做的原因请查看 \resources\application-dev.yml 中dubbo的配置说明以及遇到的坑； &ndash;&gt;-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
 
-        <!-- dubbo dependency start-->
+        <!-- Dubbo -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
@@ -119,6 +116,11 @@
                 <exclusion><artifactId>javassist</artifactId><groupId>org.javassist</groupId></exclusion>
             </exclusions>
 
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web-services</artifactId>
         </dependency>
 
         <dependency>
@@ -147,11 +149,24 @@
             <version>0.1</version>
         </dependency>
 
-        <!-- CXF webservice -->
+        <!--&lt;!&ndash; CXF webservice &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.cxf</groupId>-->
+            <!--<artifactId>cxf-spring-boot-starter-jaxws</artifactId>-->
+            <!--<version>3.1.11</version>-->
+        <!--</dependency>-->
+
+        <!-- cxf框架依赖  -->
         <dependency>
             <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-spring-boot-starter-jaxws</artifactId>
-            <version>3.1.11</version>
+            <artifactId>cxf-rt-frontend-jaxws</artifactId>
+            <version>3.1.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-transports-http</artifactId>
+            <version>3.1.12</version>
         </dependency>
 
     </dependencies>
@@ -164,5 +179,30 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 
 </project>

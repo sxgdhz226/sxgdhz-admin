@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ZHwarning>
+    <System>
+        <SysAuthor>ZH</SysAuthor>
+        <SysPubdate>2018-07-16 09:46</SysPubdate>
+    </System>
+    <Custom>
+        <Warning>
+            <Status>0</Status>
+            <Publish>1</Publish>
+        </Warning>
+    </Custom>
+</ZHwarning>

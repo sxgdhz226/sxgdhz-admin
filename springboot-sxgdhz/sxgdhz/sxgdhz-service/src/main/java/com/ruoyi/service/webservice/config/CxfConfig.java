@@ -1,5 +1,6 @@
 package com.ruoyi.service.webservice.config;
 
+import com.ruoyi.service.webservice.interceptor.AuthInterceptor;
 import com.ruoyi.service.webservice.service.TestService;
 import org.apache.cxf.Bus;
 import org.apache.cxf.bus.spring.SpringBus;
@@ -43,6 +44,7 @@ public class CxfConfig {
     @Bean
     public Endpoint syncEmpOrgImpl() {
         EndpointImpl endpoint = new EndpointImpl(springBus(), testService);// 绑定要发布的服务实现类
+        endpoint.getInInterceptors().add(new AuthInterceptor());
         endpoint.publish("/testService"); // 接口访问地址
         return endpoint;
     }

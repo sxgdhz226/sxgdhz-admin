@@ -14,8 +14,8 @@
             <element id="module-output" name="sxgdhz-common" />
           </element>
           <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.0.2.BUILD-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-2.0.2.BUILD-20181023.180456-625.jar" output-file-name="spring-cloud-starter-netflix-eureka-client-2.0.2.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-starter/2.0.3.BUILD-SNAPSHOT/spring-cloud-starter-2.0.3.BUILD-20181026.071322-21.jar" output-file-name="spring-cloud-starter-2.0.3.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-context/2.0.3.BUILD-SNAPSHOT/spring-cloud-context-2.0.3.BUILD-20181026.071155-21.jar" output-file-name="spring-cloud-context-2.0.3.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-starter/2.0.3.BUILD-SNAPSHOT/spring-cloud-starter-2.0.3.BUILD-20181027.011300-27.jar" output-file-name="spring-cloud-starter-2.0.3.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-context/2.0.3.BUILD-SNAPSHOT/spring-cloud-context-2.0.3.BUILD-20181027.011142-27.jar" output-file-name="spring-cloud-context-2.0.3.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-rsa:1.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.60" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.60" />
@@ -73,13 +73,12 @@
           <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-config-client/2.0.2.BUILD-SNAPSHOT/spring-cloud-config-client-2.0.2.BUILD-20181023.170837-628.jar" output-file-name="spring-cloud-config-client-2.0.2.BUILD-SNAPSHOT.jar" />
           <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-starter-openfeign/2.0.2.BUILD-SNAPSHOT/spring-cloud-starter-openfeign-2.0.2.BUILD-20180803.174507-23.jar" output-file-name="spring-cloud-starter-openfeign-2.0.2.BUILD-SNAPSHOT.jar" />
           <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-openfeign-core/2.0.2.BUILD-SNAPSHOT/spring-cloud-openfeign-core-2.0.2.BUILD-20180803.174502-23.jar" output-file-name="spring-cloud-openfeign-core-2.0.2.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-commons/2.0.3.BUILD-SNAPSHOT/spring-cloud-commons-2.0.3.BUILD-20181026.071316-21.jar" output-file-name="spring-cloud-commons-2.0.3.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-commons/2.0.3.BUILD-SNAPSHOT/spring-cloud-commons-2.0.3.BUILD-20181027.011254-27.jar" output-file-name="spring-cloud-commons-2.0.3.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-crypto:5.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: io.github.openfeign:feign-core:9.5.1" />
           <element id="library" level="project" name="Maven: io.github.openfeign:feign-slf4j:9.5.1" />
           <element id="library" level="project" name="Maven: io.github.openfeign:feign-hystrix:9.5.1" />
           <element id="library" level="project" name="Maven: com.netflix.hystrix:hystrix-core:1.5.12" />
-          <element id="library" level="project" name="Maven: org.hdrhistogram:HdrHistogram:2.1.9" />
           <element id="library" level="project" name="Maven: io.github.openfeign:feign-java8:9.5.1" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.18" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.0.4.RELEASE" />
@@ -129,6 +128,7 @@
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.32" />
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.32" />
           <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.0.11.Final" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.8.RELEASE" />
@@ -141,10 +141,21 @@
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.10" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.46" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.0.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.0.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator:2.0.4.RELEASE" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-core:1.0.6" />
+          <element id="library" level="project" name="Maven: org.hdrhistogram:HdrHistogram:2.1.10" />
+          <element id="library" level="project" name="Maven: org.latencyutils:LatencyUtils:2.0.3" />
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring:2.5.6.SEC03" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
           <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web-services:2.0.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:5.0.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.ws:spring-ws-core:3.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.ws:spring-xml:3.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
           <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.5" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.25" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.15" />
@@ -152,28 +163,25 @@
           <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
           <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
           <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-spring-boot-starter-jaxws:3.1.11" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-spring-boot-autoconfigure:3.1.11" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-transports-http:3.1.11" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-core:3.1.11" />
-          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
-          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
-          <element id="library" level="project" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.2.1" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxws:3.1.11" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxws:3.1.12" />
           <element id="library" level="project" name="Maven: xml-resolver:xml-resolver:1.2" />
           <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.4" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-bindings-soap:3.1.11" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-wsdl:3.1.11" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-core:3.1.12" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-bindings-soap:3.1.12" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-wsdl:3.1.12" />
           <element id="library" level="project" name="Maven: wsdl4j:wsdl4j:1.6.3" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-databinding-jaxb:3.1.11" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-databinding-jaxb:3.1.12" />
           <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.11" />
           <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-core:2.2.11" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-bindings-xml:3.1.11" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-simple:3.1.11" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-addr:3.1.11" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-policy:3.1.11" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-bindings-xml:3.1.12" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-simple:3.1.12" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-addr:3.1.12" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-policy:3.1.12" />
           <element id="library" level="project" name="Maven: org.apache.neethi:neethi:3.0.3" />
-          <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-transports-http:3.1.12" />
         </element>
       </element>
       <element id="directory" name="META-INF">

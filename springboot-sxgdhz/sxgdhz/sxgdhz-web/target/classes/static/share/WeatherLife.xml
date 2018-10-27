@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<channel>
+  <lifeTime>
+    <publishTime>2016-08-16 09:23:35</publishTime>
+  </lifeTime>
+  <lifeReport>
+    <lifeType>紫外线指数</lifeType>
+    <lifeClass>二级</lifeClass>
+    <picId>103</picId>
+    <strong>强度偏低</strong>
+    <problem>可以涂擦防护霜等。</problem>
+  </lifeReport>
+  <lifeReport>
+    <lifeType>晨练指数</lifeType>
+    <lifeClass>四级</lifeClass>
+    <picId>107</picId>
+    <strong>三种气象条件不太好</strong>
+    <problem>不太适宜晨练</problem>
+  </lifeReport>
+  <lifeReport>
+    <lifeType>中暑指数</lifeType>
+    <lifeClass>一级</lifeClass>
+    <picId>109</picId>
+    <strong>不易中暑</strong>
+    <problem>无须采取措施</problem>
+  </lifeReport>
+  <lifeReport>
+    <lifeType>森林火险指数</lifeType>
+    <lifeClass>一级</lifeClass>
+    <picId>119</picId>
+    <strong>难燃</strong>
+    <problem></problem>
+  </lifeReport>
+  <lifeReport>
+    <lifeType>舒适度指数(白天)</lifeType>
+    <lifeClass>六级</lifeClass>
+    <picId>1693</picId>
+    <strong>较舒适、温暖</strong>
+    <problem></problem>
+  </lifeReport>
+  <lifeReport>
+    <lifeType>舒适度指数(晚上)</lifeType>
+    <lifeClass>五级</lifeClass>
+    <picId>1694</picId>
+    <strong>舒适</strong>
+    <problem></problem>
+  </lifeReport>
+</channel>

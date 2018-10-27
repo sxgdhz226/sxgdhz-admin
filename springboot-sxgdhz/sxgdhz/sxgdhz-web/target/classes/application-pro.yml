@@ -1,0 +1,61 @@
+spring:
+    # ========================================= 【mysql数据库配置】 ====================================================
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/zb_server2?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+        username: root
+        password: 123456
+        maxWait: 60000
+        minIdle: 1
+    jackson:
+        time-zone: GMT+8
+        date-format: yyyy-MM-dd HH:mm:ss
+
+    # ========================================= 【activemq消息队列配置】 ===============================================
+    activemq:
+      brokerUrl: failover:(tcp://127.0.0.1:61616)?randomize=false
+      user: admin
+      password: admin
+      packages:
+        trustAll: true
+      pool:
+        enabled: false
+
+    # ========================================= 【dubbo配置】 ==========================================================
+    dubbo:
+      protocol:
+        port: 20880
+        name: rmi #协议
+        codec: spring
+      application: sea-center-service-user # dubbo应用名称
+      registry:
+        address: zookeeper://127.0.0.1:2181 # zookeeper注册中心地址
+        timeout: 30000 # 接口调用超时时间，默认50000
+        check: false # 接口默认启动不检查是否可用
+      provider:
+        retries: 0 # 重试次数，0表示不重试
+
+    # ========================================= 【activiti工作流配置】 =================================================
+    activiti:
+      # activiti工作流在项目启动过程中，会检查resources目录下是否存在processes目录并且目录下有bpmn工作流文件；
+      #     如果检查到没有processes目录或者processes目录为空，则会抛异常：java.io.FileNotFoundException: class path resource [processes/] cannot be resolved to URL because it does not exist
+      # 【处理办法】：
+      #           1、在resource目录下添加processes文件夹，并且文件夹不能为空，必须有文件存在；可以随意加入一个文件即可，比如：bpmn、txt等文件，文件类型不限制
+      #           2、通过配置check-process-definitions: false，关闭activiti启动时候的检查
+      check-process-definitions: false # 如果设置为true，当processes目录下有bpmn工作流文件的时候，会自动进行部署到mysql数据库的activiti对应的表中
+
+
+
+
+# ========================================= 【mysql从库配置】 ==========================================================
+custom:
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/zb_server?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+        username: root
+        password: 123456
+    jackson:
+        time-zone: GMT+8
+        date-format: yyyy-MM-dd HH:mm:ss

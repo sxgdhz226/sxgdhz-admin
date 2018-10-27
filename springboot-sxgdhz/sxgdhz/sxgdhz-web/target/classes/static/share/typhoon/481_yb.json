@@ -1,0 +1,34 @@
+[
+  {
+    "orgname": "����",
+    "data": [
+      {
+        "gust": "19",
+        "windforce": "7",
+        "windspeed": "14",
+        "time": "2016-10-22 02:00:00",
+        "rr07": "",
+        "pressure": "998",
+        "passthrough": "0",
+        "name": "�� ��",
+        "longitude": "115.2",
+        "latitude": "25.4",
+        "distances": 390
+      },
+      {
+        "gust": "19",
+        "windforce": "7",
+        "windspeed": "14",
+        "time": "2016-10-22 08:00:00",
+        "rr07": "",
+        "pressure": "1002",
+        "passthrough": "1",
+        "name": "�� ��",
+        "longitude": "116.1",
+        "latitude": "27.3",
+        "LEADTIME": "6",
+        "distances": 620
+      }
+    ]
+  }
+]
