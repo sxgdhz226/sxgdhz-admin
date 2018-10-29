@@ -26,6 +26,8 @@
     <!-- 基础服务 -->
     <dubbo:service interface="com.ruoyi.api.service.ShikigamaService" ref="shikigamaServiceImpl"  />
 
+    <dubbo:service interface="com.ruoyi.api.service.ITyphoonService" ref="typhoonServiceImpl"  />
+
     <!-- 使用注解方式-->
     <!--<dubbo:annotation package="com.itstyle"/>-->
 

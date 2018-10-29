@@ -58,6 +58,14 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
+        <!-- mybatis-plus begin import mybatis plus 它会自动引入mybatis及mybatis spring切勿重复引用以免冲突-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus-boot-starter.version}</version>
+        </dependency>
+        <!-- mybatis-plus end -->
+
     </dependencies>
 
     <!--注意添加这个spring.io，maven2仓库没有-->

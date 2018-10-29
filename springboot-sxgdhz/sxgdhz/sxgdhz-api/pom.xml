@@ -36,6 +36,14 @@
             <artifactId>lombok</artifactId>
             <version>1.16.10</version>
         </dependency>
+
+        <!-- mybatis-plus begin -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus-boot-starter.version}</version>
+        </dependency>
+        <!-- mybatis-plus end -->
     </dependencies>
 
 </project>

@@ -1,5 +1,6 @@
 package com.ruoyi.project.system.config.mapper;
 
+import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.ruoyi.project.system.config.domain.Config;
 import java.util.List;
 
@@ -8,7 +9,7 @@ import java.util.List;
  * 
  * @author ruoyi
  */
-public interface ConfigMapper
+public interface ConfigMapper extends BaseMapper
 {
     /**
      * 查询参数配置信息
