@@ -27,6 +27,7 @@
 	<!-- 基础服务 -->
     <dubbo:reference interface="com.ruoyi.api.service.ShikigamaService" id="shikigamaService" check="false"/>
     <dubbo:reference interface="com.ruoyi.api.service.ITyphoonService" id="iTyphoonService" check="false"/>
+    <dubbo:reference interface="com.ruoyi.api.service.ISysMonitorLogService" id="iSysMonitorLogService" check="false"/>
 
 
 </beans>

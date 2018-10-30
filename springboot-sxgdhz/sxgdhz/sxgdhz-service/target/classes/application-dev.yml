@@ -1,4 +1,11 @@
 spring:
+    data:
+      elasticsearch:
+        cluster-name: elasticsearch
+        cluster-nodes: 192.168.19.129:9300
+        local: false
+        repositories:
+            enable: true
     # ========================================= 【mysql数据库配置】 ====================================================
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource

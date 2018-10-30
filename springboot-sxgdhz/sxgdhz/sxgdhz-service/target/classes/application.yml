@@ -16,6 +16,9 @@ spring:
   profiles:
     active: dev
 
+#    logs: ./elasticsearch/log #elasticsearch日志存储目录
+#    data: ./elasticsearch/data #elasticsearch数据存储目录
+
 # mybatis配置
 # mybatis-plus 优化
 mybatis-plus:
@@ -52,6 +55,8 @@ pagehelper:
     reasonable: true
     supportMethodsArguments: true
     params: count=countSql
+
+
 
 
 

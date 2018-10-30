@@ -27,6 +27,7 @@
     <dubbo:service interface="com.ruoyi.api.service.ShikigamaService" ref="shikigamaServiceImpl"  />
 
     <dubbo:service interface="com.ruoyi.api.service.ITyphoonService" ref="typhoonServiceImpl"  />
+    <dubbo:service interface="com.ruoyi.api.service.ISysMonitorLogService" ref="sysMonitorLogServiceImpl"  />
 
     <!-- 使用注解方式-->
     <!--<dubbo:annotation package="com.itstyle"/>-->

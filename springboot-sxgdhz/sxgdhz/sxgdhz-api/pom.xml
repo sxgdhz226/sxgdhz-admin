@@ -44,6 +44,11 @@
             <version>${mybatis-plus-boot-starter.version}</version>
         </dependency>
         <!-- mybatis-plus end -->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
