@@ -196,6 +196,47 @@
             <version>3.1.12</version>
         </dependency>
 
+        <!--&lt;!&ndash; Hadoop Common and Hadoop HDFS &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.hadoop</groupId>-->
+            <!--<artifactId>hadoop-common</artifactId>-->
+            <!--<version>2.6.0</version>-->
+        <!--</dependency>-->
+
+        <!--&lt;!&ndash; Hdfs &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.hadoop</groupId>-->
+            <!--<artifactId>hadoop-hdfs</artifactId>-->
+            <!--<version>2.6.0</version>-->
+        <!--</dependency>-->
+
+        <!--&lt;!&ndash; MapReduce &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.hadoop</groupId>-->
+            <!--<artifactId>hadoop-mapreduce-client-app</artifactId>-->
+            <!--<version>2.6.0</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
+
+        <!--openoffice-->
+        <!--<dependency>-->
+            <!--<groupId>cn.keking</groupId>-->
+            <!--<artifactId>jodconverter-core</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<artifactId>commons-io</artifactId>-->
+                    <!--<groupId>commons-io</groupId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>net.sourceforge.jchardet</groupId>-->
+            <!--<artifactId>jchardet</artifactId>-->
+            <!--<version>1.0</version>-->
+        <!--</dependency>-->
+
     </dependencies>
 
     <build>

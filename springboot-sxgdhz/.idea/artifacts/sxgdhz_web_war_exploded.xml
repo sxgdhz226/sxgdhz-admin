@@ -14,8 +14,8 @@
             <element id="module-output" name="sxgdhz-common" />
           </element>
           <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.0.2.BUILD-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-2.0.2.BUILD-20181023.180456-625.jar" output-file-name="spring-cloud-starter-netflix-eureka-client-2.0.2.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-starter/2.0.3.BUILD-SNAPSHOT/spring-cloud-starter-2.0.3.BUILD-20181029.221227-51.jar" output-file-name="spring-cloud-starter-2.0.3.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-context/2.0.3.BUILD-SNAPSHOT/spring-cloud-context-2.0.3.BUILD-20181029.221109-51.jar" output-file-name="spring-cloud-context-2.0.3.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-starter/2.0.3.BUILD-SNAPSHOT/spring-cloud-starter-2.0.3.BUILD-20181031.011234-60.jar" output-file-name="spring-cloud-starter-2.0.3.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-context/2.0.3.BUILD-SNAPSHOT/spring-cloud-context-2.0.3.BUILD-20181031.011118-60.jar" output-file-name="spring-cloud-context-2.0.3.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-rsa:1.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.60" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.60" />
@@ -65,7 +65,7 @@
           <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-config-client/2.0.2.BUILD-SNAPSHOT/spring-cloud-config-client-2.0.2.BUILD-20181023.170837-628.jar" output-file-name="spring-cloud-config-client-2.0.2.BUILD-SNAPSHOT.jar" />
           <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-starter-openfeign/2.0.2.BUILD-SNAPSHOT/spring-cloud-starter-openfeign-2.0.2.BUILD-20180803.174507-23.jar" output-file-name="spring-cloud-starter-openfeign-2.0.2.BUILD-SNAPSHOT.jar" />
           <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-openfeign-core/2.0.2.BUILD-SNAPSHOT/spring-cloud-openfeign-core-2.0.2.BUILD-20180803.174502-23.jar" output-file-name="spring-cloud-openfeign-core-2.0.2.BUILD-SNAPSHOT.jar" />
-          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-commons/2.0.3.BUILD-SNAPSHOT/spring-cloud-commons-2.0.3.BUILD-20181029.221221-51.jar" output-file-name="spring-cloud-commons-2.0.3.BUILD-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/Program Files (x86)/maven/mavenRespository/org/springframework/cloud/spring-cloud-commons/2.0.3.BUILD-SNAPSHOT/spring-cloud-commons-2.0.3.BUILD-20181031.011227-60.jar" output-file-name="spring-cloud-commons-2.0.3.BUILD-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-crypto:5.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: io.github.openfeign:feign-core:9.5.1" />
           <element id="library" level="project" name="Maven: io.github.openfeign:feign-slf4j:9.5.1" />
@@ -73,6 +73,10 @@
           <element id="library" level="project" name="Maven: com.netflix.hystrix:hystrix-core:1.5.12" />
           <element id="library" level="project" name="Maven: org.hdrhistogram:HdrHistogram:2.1.9" />
           <element id="library" level="project" name="Maven: io.github.openfeign:feign-java8:9.5.1" />
+          <element id="library" level="project" name="Maven: org.openoffice:juh:3.2.1" />
+          <element id="library" level="project" name="Maven: org.openoffice:jurt:3.2.1" />
+          <element id="library" level="project" name="Maven: org.openoffice:ridl:3.2.1" />
+          <element id="library" level="project" name="Maven: org.openoffice:unoil:3.2.1" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-elasticsearch:2.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-elasticsearch:3.0.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.elasticsearch.client:transport:5.6.10" />

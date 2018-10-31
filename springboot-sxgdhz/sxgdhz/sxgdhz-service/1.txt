@@ -1,0 +1,18 @@
+[INFO] Scanning for projects...
+Downloading: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/cloud/spring-cloud-dependencies/Finchley.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/cloud/spring-cloud-dependencies/Finchley.BUILD-SNAPSHOT/spring-cloud-dependencies-Finchley.BUILD-SNAPSHOT.pom
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'dependencies.dependency.systemPath' for net.sf.json-lib:json-lib:jar should not point at files within the project directory, ${basedir}/src/main/lib/json-lib.jar will be unresolvable by dependent projects @ com.ruoyi.service:sxgdhz-service:[unknown-version], D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-service\pom.xml, line 82, column 25
+[ERROR] Non-resolvable import POM: Could not find artifact org.springframework.cloud:spring-cloud-dependencies:pom:Finchley.BUILD-SNAPSHOT in public (http://maven.aliyun.com/nexus/content/groups/public/) @ com.RuoYi:sxgdhz:1.0-SNAPSHOT, D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\pom.xml, line 64, column 19
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.ruoyi.service:sxgdhz-service:1.0-SNAPSHOT (D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-service\pom.xml) has 1 error
+[ERROR]     Non-resolvable import POM: Could not find artifact org.springframework.cloud:spring-cloud-dependencies:pom:Finchley.BUILD-SNAPSHOT in public (http://maven.aliyun.com/nexus/content/groups/public/) @ com.RuoYi:sxgdhz:1.0-SNAPSHOT, D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\pom.xml, line 64, column 19 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException

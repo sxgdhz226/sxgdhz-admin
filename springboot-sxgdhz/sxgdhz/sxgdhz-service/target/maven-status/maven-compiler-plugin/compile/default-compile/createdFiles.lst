@@ -1,7 +1,0 @@
-com\ruoyi\service\webservice\impl\TestServiceImpl.class
-com\ruoyi\service\webservice\service\TestService.class
-com\ruoyi\UserApplication.class
-com\ruoyi\service\user\service\impl\ShikigamaServiceImpl.class
-com\ruoyi\service\user\dao\ShikigamaDao.class
-com\ruoyi\service\webservice\config\CxfConfig.class
-com\ruoyi\service\user\config\properties\PropertiesConfig.class

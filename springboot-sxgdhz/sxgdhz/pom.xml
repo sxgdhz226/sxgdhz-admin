@@ -35,6 +35,7 @@
     <spring.boot.dubbo.version>1.0.10</spring.boot.dubbo.version>
     <spring-cloud.version>Finchley.BUILD-SNAPSHOT</spring-cloud.version>
     <mybatis-plus-boot-starter.version>2.3</mybatis-plus-boot-starter.version>
+    <commons.io.version>2.5</commons.io.version>
   </properties>
 
   <modules>

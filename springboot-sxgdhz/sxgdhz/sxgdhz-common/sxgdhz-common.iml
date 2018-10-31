@@ -141,5 +141,12 @@
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.6" level="project" />
     <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-generate:2.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:juh:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:jurt:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:ridl:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:unoil:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20090211" level="project" />
+    <orderEntry type="library" name="Maven: org.hyperic:sigar:1.6.5.132" level="project" />
   </component>
 </module>
