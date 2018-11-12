@@ -196,6 +196,24 @@
             <version>3.1.12</version>
         </dependency>
 
+        <!--progreslq-->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+        </dependency>
+
+        <!--jwt-->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>${jsonwebtoken.verson}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
         <!--&lt;!&ndash; Hadoop Common and Hadoop HDFS &ndash;&gt;-->
         <!--<dependency>-->
             <!--<groupId>org.apache.hadoop</groupId>-->

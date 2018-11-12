@@ -205,3 +205,14 @@ dubbo:
       check: true # 项目启动时，检查注册中心是否可用（是否启动了zookeeper注册中心）
     consumer:
       check: false  # 项目启动时，检查service服务是否可以订阅和调用
+
+jwt:
+  header: Authorization
+  secret: mySecret
+  expiration: 604800
+  tokenHead: "Bearer "
+  route:
+    authentication:
+      path: auth
+      refresh: refresh
+      register: "auth/register"

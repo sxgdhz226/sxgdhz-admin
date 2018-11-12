@@ -2,42 +2,137 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c46881c-307a-4dd6-a78c-4c2ecc38c985" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/ZhihuSpider/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/ZhihuSpider/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/ZhihuSpider/check_redis.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/ZhihuSpider/config.ini" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/ZhihuSpider/firstPython.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/ZhihuSpider/get_user.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/ZhihuSpider/init.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/ZhihuSpider/login/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/ZhihuSpider/login/login.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/ZhihuSpider/wxbot.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/mypython/into.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../python/mypython/mypython.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/sxgdhz_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/sxgdhz_service_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/sxgdhz_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/sxgdhz_web_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_11.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_servlet_3_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_guice_1_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_6_2_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_0_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_0_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_nodemanager_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_web_proxy_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_8_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_8_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_htrace_htrace_core_3_0_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_3_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_3_BUILD_SNAPSHOT.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_3_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_3_BUILD_SNAPSHOT.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_3_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_3_BUILD_SNAPSHOT.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_turbine_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_2_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_compiler_5_5_23.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_runtime_5_5_23.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/sxgdhz/pom.xml" afterPath="$PROJECT_DIR$/sxgdhz/pom.xml" />
       <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/sxgdhz-api.iml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/sxgdhz-api.iml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/surefire-reports/TEST-com.ruoyi.AppTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/surefire-reports/com.ruoyi.AppTest.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/sxgdhz-api-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/entity/MitamaModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/entity/ShikigamiModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/entity/SysMonitorLog.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/entity/Typhoon.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/entity/UserEntity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/service/ISysMonitorLogService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/service/ITyphoonService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-api/target/classes/com/ruoyi/api/service/ShikigamaService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-hystrix/sxgdhz-cloud-hystrix.iml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-hystrix/sxgdhz-cloud-hystrix.iml" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/sxgdhz-cloud-server.iml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-server/sxgdhz-cloud-server.iml" />
       <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/sxgdhz-cloud-zuul.iml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-cloud-zuul/sxgdhz-cloud-zuul.iml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/pom.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/pom.xml" />
       <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/sxgdhz-common.iml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/sxgdhz-common.iml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/classes/com/ruoyi/common/context/FilterContextHandler.class" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/classes/com/ruoyi/common/context/FilterContextHandler.class" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/classes/com/ruoyi/common/intercepter/FeignIntercepter.class" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/classes/com/ruoyi/common/intercepter/FeignIntercepter.class" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/classes/com/ruoyi/common/model/BaseModel.class" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/classes/com/ruoyi/common/model/BaseModel.class" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/surefire-reports/TEST-com.ruoyi.AppTest.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/surefire-reports/TEST-com.ruoyi.AppTest.xml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/sxgdhz-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-common/target/sxgdhz-common-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/2.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/3.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/pom.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/sxgdhz-service.iml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/sxgdhz-service.iml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/target/test-classes/com/ruoyi/ElasticSearchTest.class" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-service/target/test-classes/com/ruoyi/ElasticSearchTest.class" />
       <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/config/properties/PropertiesConfig.java" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/config/properties/PropertiesConfig.java" />
       <change beforePath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/sxgdhz-web.iml" afterPath="$PROJECT_DIR$/sxgdhz/sxgdhz-web/sxgdhz-web.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/sxgdhz/target/" />
@@ -72,41 +167,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="UserApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/UserApplication.java">
+      <file leaf-file-name="JwtLoginFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/jwt/filter/JwtLoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="608">
+              <caret line="29" column="67" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JwtTokenUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/jwt/util/JwtTokenUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="112" column="54" lean-forward="true" selection-start-line="112" selection-start-column="54" selection-end-line="112" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JwtAuthenticationTokenFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/jwt/filter/JwtAuthenticationTokenFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="95" column="37" lean-forward="false" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CxfConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/webservice/config/CxfConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="218" column="25" lean-forward="true" selection-start-line="198" selection-start-column="12" selection-end-line="218" selection-end-column="25" />
+            <state relative-caret-position="420">
+              <caret line="214" column="21" lean-forward="false" selection-start-line="211" selection-start-column="7" selection-end-line="214" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="430" column="21" lean-forward="false" selection-start-line="430" selection-start-column="21" selection-end-line="430" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/system/user/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="43" column="15" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/shiro/realm/UserRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-198">
+              <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -124,10 +251,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>shikigamaServiceImpl</find>
-      <find>com.ruoyi.project.web</find>
-      <find>ComponentScan</find>
-      <find>springfox-spring-web</find>
       <find>dom4j</find>
       <find>cloud</find>
       <find>spring-boot-starter-web</find>
@@ -144,7 +267,6 @@
       <find>@MapperScan</find>
       <find>mybatis</find>
       <find>queryTyphoonForList</find>
-      <find>TyphoonInfoMapper</find>
       <find>logback.xml</find>
       <find>logback-classic</find>
       <find>com.ruoyi.framework.config</find>
@@ -154,7 +276,15 @@
       <find>commons.io.version</find>
       <find>jchardet</find>
       <find>cn.keking</find>
+      <find>postgresql</find>
+      <find>TyphoonInfoMapper</find>
+      <find>JaxWsDynamicClientFactory</find>
+      <find>Subject</find>
+      <find>getTokenHeader</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\workspace\idea\git\springboot-sxgdhz\sxgdhz</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -179,17 +309,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-api/src/main/java/com/ruoyi/api/service/ISysMonitorLogService.java" />
-        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/tool/swagger/SysMonitorLogController.java" />
-        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-api/src/main/java/com/ruoyi/api/entity/SysMonitorLog.java" />
-        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/elasticSearch/impl/SysMonitorLogServiceImpl.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/test/java/com/ruoyi/ElasticSearchTest.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/hadoop/utils/HdfsUtils.java" />
-        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/test/java/com/ruoyi/hdfs/HdfsFsTest.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/utils/DeleteFileUtil.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-common/src/main/java/com/ruoyi/common/openoffice/ExternalOfficeManager.java" />
-        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-common/src/main/java/com/ruoyi/common/openoffice/document/JsonDocumentFormatRegistry.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-common/src/main/java/com/ruoyi/common/openoffice/process/ProcessQuery.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-common/src/main/java/com/ruoyi/common/openoffice/util/PlatformUtils.java" />
@@ -228,8 +351,15 @@
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-common/src/main/java/com/ruoyi/common/openoffice/extend/ControlDocumentFormatRegistry.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/utils/ConverterUtils.java" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/utils/DownloadUtils.java" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/test/java/com/ruoyi/hdfs/HdfsFsTest.java" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sxgdhz/pom.xml" />
         <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/pom.xml" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/jwt/filter/JwtLoginFilter.java" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/jwt/filter/JwtLoginFilter.java" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/jwt/util/JwtTokenUtil.java" />
+        <option value="$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/jwt/filter/JwtAuthenticationTokenFilter.java" />
       </list>
     </option>
   </component>
@@ -329,6 +459,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -340,30 +471,25 @@
             <path>
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-common" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-service" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-service" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-service" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -371,7 +497,7 @@
             <path>
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
-              <item name="sxgdhz-service" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -381,6 +507,60 @@
               <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
               <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
               <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-sxgdhz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sxgdhz" type="462c0819:PsiDirectoryNode" />
+              <item name="sxgdhz-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,7 +568,6 @@
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,8 +588,18 @@
     <property name="dynamic.classpath" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-service\src\main\resources\mybatis\mapper\typhoon" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ruoyi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ruoyi.framework.jwt.filter" />
+      <recent name="com.ruoyi.framework.jwt.util" />
+      <recent name="com.ruoyi.common.openoffice.extend" />
+      <recent name="com.ruoyi.common.openoffice.util" />
+      <recent name="com.ruoyi.common.openoffice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-web\src\main\resources\properties" />
@@ -418,16 +607,6 @@
       <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-web\src\main\java\com\ruoyi\project\openoffice\service" />
       <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-web\src\main\java\com\ruoyi\project\openoffice\model" />
       <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-web\src\main\java\com\ruoyi\project\openoffice\utils" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ruoyi.common.openoffice.extend" />
-      <recent name="com.ruoyi.common.openoffice.util" />
-      <recent name="com.ruoyi.common.openoffice" />
-      <recent name="com.ruoyi.api.entity" />
-      <recent name="com.ruoyi.service.config" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\idea\git\springboot-sxgdhz\sxgdhz\sxgdhz-service\src\main\resources\mybatis\mapper\typhoon" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -690,7 +869,10 @@
       <workItem from="1540867537193" duration="125000" />
       <workItem from="1540869150825" duration="14629000" />
       <workItem from="1540948757560" duration="1435000" />
-      <workItem from="1540966602370" duration="5687000" />
+      <workItem from="1540966602370" duration="7288000" />
+      <workItem from="1541139077286" duration="2356000" />
+      <workItem from="1541146158802" duration="287000" />
+      <workItem from="1541987618936" duration="2361000" />
     </task>
     <servers />
   </component>
@@ -721,7 +903,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111192000" />
+    <option name="totallyTimeSpent" value="117797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -738,21 +920,21 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29671574" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2355606" sideWeight="0.49785408" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5283447" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.047565117" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41676104" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49150622" sideWeight="0.49570817" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24785408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49570817" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21512875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -760,6 +942,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2355606" sideWeight="0.49785408" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -831,139 +1014,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/utils/DeleteFileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/utils/ShedulerClean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/config/RedissonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1461">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/controller/OnlinePreviewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1971">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/extend/ControlDocumentFormatRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4413">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/filters/ChinesePathFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/filters/FilterConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/model/FileType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/model/ReturnResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/service/impl/PdfFilePreviewImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/model/FileAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/utils/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="267" column="18" lean-forward="false" selection-start-line="267" selection-start-column="18" selection-end-line="267" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/utils/DownloadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1051">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/openoffice/utils/SimTextUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,9 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -981,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,9 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -999,9 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="29" column="59" lean-forward="false" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,9 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,9 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,9 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1039,9 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1049,9 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,7 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1581">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,7 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="200" column="16" lean-forward="false" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,9 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,9 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="888">
           <caret line="48" column="53" lean-forward="false" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1111,9 +1131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,9 +1138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,7 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,7 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1147,7 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,7 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,65 +1173,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-275">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/utils/FileCharsetDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/utils/ConverterUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/utils/DeleteFileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/utils/DownloadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/utils/FileCharsetDetector.java" />
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/utils/ConverterUtils.java" />
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/utils/DeleteFileUtil.java" />
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/utils/DownloadUtils.java" />
     <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-common/src/main/java/com/ruoyi/common/openoffice/StandardConversionTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="83" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10365">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,15 +1198,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="716">
+          <caret line="95" column="37" lean-forward="false" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1257,18 +1216,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/test/java/com/ruoyi/hdfs/HdfsFsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="95" column="37" lean-forward="false" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
+        <state relative-caret-position="240">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/resources/application-druid.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="57" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="83" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/mapper/TyphoonInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/mybatis/mapper/typhoon/TyphoonInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding>
+            <marker date="1540798067918" expanded="true" signature="302:327" ph="SELECT * FRO... typhoonList" />
+            <marker date="1540798067918" expanded="true" signature="425:467" ph="SELECT * FRO... typhoonList" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/main/java/com/ruoyi/service/webservice/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/src/test/java/com/ruoyi/WebServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/maven/mavenRespository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/maven/mavenRespository/org/springframework/security/spring-security-web/5.0.7.RELEASE/spring-security-web-5.0.7.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/system/user/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="43" column="15" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="218" column="25" lean-forward="true" selection-start-line="198" selection-start-column="12" selection-end-line="218" selection-end-column="25" />
+        <state relative-caret-position="420">
+          <caret line="214" column="21" lean-forward="false" selection-start-line="211" selection-start-column="7" selection-end-line="214" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="430" column="21" lean-forward="false" selection-start-line="430" selection-start-column="21" selection-end-line="430" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/project/system/user/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/shiro/realm/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/jwt/filter/JwtAuthenticationTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/jwt/filter/JwtLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="29" column="67" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxgdhz/sxgdhz-web/src/main/java/com/ruoyi/framework/jwt/util/JwtTokenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="112" column="54" lean-forward="true" selection-start-line="112" selection-start-column="54" selection-end-line="112" selection-end-column="54" />
           <folding />
         </state>
       </provider>

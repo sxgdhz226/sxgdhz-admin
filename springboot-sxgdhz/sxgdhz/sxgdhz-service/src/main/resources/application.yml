@@ -15,6 +15,11 @@ debug: false
 spring:
   profiles:
     active: dev
+  datasource:
+     driverClassName: org.postgresql.Driver
+     url: jdbc:postgresql://127.0.0.1:5432/postgres
+     username: postgres
+     password: postgres
 
 #    logs: ./elasticsearch/log #elasticsearch日志存储目录
 #    data: ./elasticsearch/data #elasticsearch数据存储目录
